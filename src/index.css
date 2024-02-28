@@ -1,0 +1,79 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.center {
+  @apply flex justify-center items-center;
+}
+.control-btn {
+  @apply px-4 py-2 text-sm font-medium text-gray-900 bg-white border border-gray-200;
+}
+
+.input-error {
+  animation: shake 0.4s ease-in-out 0s 2;
+  color: #ff0000;
+  border: 2px solid #ff0000;
+  animation: shake 300ms;
+  color: rgb(255, 35, 35);
+}
+
+@keyframes shake {
+  25% {
+    transform: translateX(4px);
+  }
+  50% {
+    transform: translateX(-4px);
+  }
+  75% {
+    transform: translateX(4px);
+  }
+}
+
+.navigation-info-pulse {
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 rgba(25, 118, 210, 1);
+  }
+
+  50% {
+    box-shadow: 0 0 0 15px rgba(25, 118, 210, 0);
+  }
+}
+
+.rotate {
+  animation: rotation 0.3s linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes fadeOut {
+  to {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 0.3s ease-out forwards;
+}
+
+.animate-fadeOut {
+  animation: fadeOut 0.3s ease-out forwards;
+}
