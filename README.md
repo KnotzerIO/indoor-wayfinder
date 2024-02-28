@@ -1,11 +1,9 @@
 # Pathpal: Web-Based Indoor Navigation
 
-# Interactive Map with Indoor Wayfinding
-
-Website: [https://deepnotes.app](https://deepnotes.app)
 
 This project is a variation of my diploma project, focusing on an interactive map for indoor wayfinding and navigation. It features an interactive SVG map and utilizes the Dijkstra algorithm to calculate the shortest path to points of interest (POIs). Originally, the application experimented with indoor positioning using BLE technology, but due to ithe experimental nature of the Bluetooth Web API, it has been omitted in this variation. Instead of a traditional database, this version uses a JSON server for development purposes.
 
+Website: [https://pathpal-navigation.azurewebsites.net](https://pathpal-navigation.azurewebsites.net)
 ## Getting Started
 
 This project is developed with React and Vite, offering a fully responsive design to accommodate various devices.
