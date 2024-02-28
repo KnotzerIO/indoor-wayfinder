@@ -22,9 +22,18 @@ This project is a variation of my diploma project, focusing on an interactive ma
 
 //TODO
 
+## Features
+
+- **Interactive SVG Maps**: Navigate complex indoor spaces with ease.
+- **Dijkstra Pathfinding**: Calculates the shortest path to your destination.
+- **Responsive Design**: Optimized for any device and screen size.
+- **JSON Server**: Simplifies backend development for prototyping.
+- **Customizable POIs**: Edit names and categories of points of interest.
+- **Pinch-to-Zoom**: Effortlessly zoom in and out on maps with touch gestures.
+
 ## Technologies
 
-`React` `Vite` `Typescript` `TailwindCSS`
+`React` `Vite` `Typescript` `TailwindCSS` 
 
 ## Setup
 
