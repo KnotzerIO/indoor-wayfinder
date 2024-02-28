@@ -1,4 +1,4 @@
-import logo from "../assets/PP_logo_V3.svg";
+import logo from "../assets/pathpal-logo.svg";
 import { FiChevronRight } from "react-icons/fi";
 import { useContext, useEffect, useState } from "react";
 import {
