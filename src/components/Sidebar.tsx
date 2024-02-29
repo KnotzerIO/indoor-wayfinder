@@ -95,7 +95,7 @@ function Sidebar() {
               <div className="flex flex-col ">
                 {parsedObjects[letter].results.map((item) => (
                   <div
-                    key={item._id?.toString()}
+                    key={item.id?.toString()}
                     data-product={item.name}
                     className="flex bg-[#f4faff] m-1 px-4 py-2 shadow-sm rounded-md cursor-pointer h-auto hover:bg-[#e4f2ff]"
                     onClick={() => handleObjectNavigation(item.objectId)}

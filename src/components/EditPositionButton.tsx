@@ -1,5 +1,5 @@
 import { FiMapPin } from "react-icons/fi";
-import Tooltip from "../ui/Tooltip";
+import Tooltip from "./ui/Tooltip";
 import { NavigationContext } from "@/pages/Map";
 import { NavigationContextType } from "@/utils/types";
 import { useContext } from "react";

@@ -1,4 +1,4 @@
-import floorplan from "@/assets/floorplan_updated.webp";
+import floorplan from "@/assets/mall-floor-plan.svg";
 import { ReactNode } from "react";
 interface MapBackgroundProps {
   children: ReactNode;
@@ -6,13 +6,12 @@ interface MapBackgroundProps {
 
 function MapBackground({ children }: MapBackgroundProps) {
   return (
-    <svg viewBox="0 0 1500 959" className="lg:h-[85vh] lg:w-[75vw] h-[85dvh]">
+    <svg viewBox="0 0 1589 1143" className="lg:h-[85vh] lg:w-[75vw] h-[85dvh]">
       <image
         id="background"
-        width={5457}
-        height={3707}
+        width="100%"
+        height="100%"
         href={floorplan}
-        transform="translate(17.505 -31.138) scale(.2697)"
       />
       {children}
     </svg>

@@ -32,7 +32,7 @@ function IndoorMapWrapper() {
       const targetId = (e.target as HTMLElement).id;
       const selectedObject = await getObjectByObjectId(targetId);
       console.log(selectedObject);
-      if (selectedObject._id) {
+      if (selectedObject.id) {
         setObject(selectedObject);
         setModalOpen(true);
       }
@@ -69,7 +69,6 @@ function IndoorMapWrapper() {
       >
         <TransformComponent wrapperClass="bg-white">
           <MapBackground>
-            <Piktograms />
             {/*Objects are the clickable areas on the map e.g. Rooms, Desks, ...*/}
             <Objects
               handleObjectClick={handleObjectClick}

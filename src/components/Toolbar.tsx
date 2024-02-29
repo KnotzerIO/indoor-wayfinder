@@ -2,7 +2,7 @@ import { NavigationContext } from "@/pages/Map";
 import { NavigationContextType } from "@/utils/types";
 import { useContext } from "react";
 import { isDesktop } from "react-device-detect";
-import EditPositionButton from "./Buttons/EditPositionButton";
+import EditPositionButton from "./EditPositionButton";
 import DesktopRouteDetails from "./DesktopRouteDetails";
 import SearchBar from "./SearchBar";
 

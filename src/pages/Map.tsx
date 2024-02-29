@@ -3,7 +3,7 @@ import MobileRouteDetails from "@/components/MobileRouteDetails";
 import Toolbar from "@/components/Toolbar";
 import useMapData from "@/hooks/useMapData";
 import { createContext, lazy, useEffect, useState } from "react";
-import { isDesktop } from "react-device-detect";
+import { isDesktop, isMobile } from "react-device-detect";
 import { useSearchParams } from "react-router-dom";
 import {
   MapDataContextType,
@@ -48,7 +48,7 @@ function Map() {
               <IndoorMapWrapper />
             </div>
           </main>
-          {navigation.end && <MobileRouteDetails />}
+          {navigation.end && isMobile && <MobileRouteDetails />}
         </div>
       </NavigationContext.Provider>
     </MapDataContext.Provider>

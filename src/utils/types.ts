@@ -1,8 +1,7 @@
 import { ObjectId } from "mongodb";
 
 export interface ObjectItem {
-  _id: ObjectId;
-  id?: number;
+  id: number;
   name: string;
   desc: string;
   objectId: string;
@@ -10,8 +9,7 @@ export interface ObjectItem {
   categoryName?: string;
 }
 export interface Category {
-  _id: string;
-  id: number;
+  id: string;
   name: string;
 }
 
