@@ -12,12 +12,12 @@ export async function getObjects(): Promise<ObjectItem[]> {
   }
 }
 
-export async function getObjectByObjectId(_id: string): Promise<ObjectItem> {
+export async function getObjectByObjectId(id: string): Promise<ObjectItem> {
   try {
-    const response = await apiService.get(`/objects/${_id}`);
-    return response.data as ObjectItem;
+    const response = await apiService.get(`/objects?objectId=${id}`);
+    return response.data[0] as ObjectItem;
   } catch (error) {
-    console.error(`Error fetching object with ID ${_id}:`, error);
+    console.error(`Error fetching object with ID ${id}:`, error);
     throw error;
   }
 }
@@ -44,37 +44,37 @@ export async function createCategory(
   }
 }
 
-export async function deleteCategory(_id: string): Promise<void> {
+export async function deleteCategory(id: string): Promise<void> {
   try {
-    await apiService.delete(`/categories/${_id}`);
+    await apiService.delete(`/categories/${id}`);
   } catch (error) {
-    console.error(`Error deleting category with ID ${_id}:`, error);
+    console.error(`Error deleting category with ID ${id}:`, error);
     throw error;
   }
 }
 
 export async function updateObject(
-  _id: string,
+  id: string,
   updatedData: Partial<ObjectItem>
 ): Promise<ObjectItem | null> {
   try {
-    const response = await apiService.put(`/objects/${_id}`, updatedData);
+    const response = await apiService.put(`/objects/${id}`, updatedData);
     return response.data as ObjectItem;
   } catch (error) {
-    console.error(`Error updating object with ID ${_id}:`, error);
+    console.error(`Error updating object with ID ${id}:`, error);
     throw error;
   }
 }
 
 export async function updateCategory(
-  _id: ObjectId,
+  id: ObjectId,
   updatedData: Partial<Category>
 ): Promise<Category | null> {
   try {
-    const response = await apiService.put(`/categories/${_id}`, updatedData);
+    const response = await apiService.put(`/categories/${id}`, updatedData);
     return response.data as Category;
   } catch (error) {
-    console.error(`Error updating category with ID ${_id}:`, error);
+    console.error(`Error updating category with ID ${id}:`, error);
     throw error;
   }
 }
