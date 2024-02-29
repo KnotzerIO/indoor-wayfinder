@@ -1,0 +1,244 @@
+{
+  "objects": [
+    {
+      "id": "6596e463551c3f465e5d9554",
+      "name": "Besprechungsraum Schweizer Garten",
+      "desc": "",
+      "objectId": "o4",
+      "categoryId": "6596e463551c3f465e5d9548"
+    },
+    {
+      "id": "6596e463551c3f465e5d9557",
+      "name": "Küche",
+      "desc": "",
+      "objectId": "o7",
+      "categoryId": "6596e463551c3f465e5d9549"
+    },
+    {
+      "id": "6596e463551c3f465e5d9552",
+      "name": "Besprechungsraum Oberlaa",
+      "desc": "",
+      "objectId": "o2",
+      "categoryId": "6596e463551c3f465e5d9548"
+    },
+    {
+      "id": "6596e463551c3f465e5d9553",
+      "name": "Besprechungsraum Arsenal",
+      "desc": "",
+      "objectId": "o3",
+      "categoryId": "6596e463551c3f465e5d9548"
+    },
+    {
+      "id": "6596e463551c3f465e5d9561",
+      "name": "Olaf Schermanns Schreibtisch",
+      "desc": "Schreibtisch vom CEO",
+      "objectId": "o11",
+      "categoryId": "6596e463551c3f465e5d9547"
+    },
+    {
+      "id": "6596e463551c3f465e5d9556",
+      "name": "Besprechungsraum klein 2",
+      "desc": "",
+      "objectId": "o6",
+      "categoryId": "6596e463551c3f465e5d9548"
+    },
+    {
+      "id": "6596e463551c3f465e5d9560",
+      "name": "Arbeitszimmer 3",
+      "desc": "",
+      "objectId": "o10",
+      "categoryId": "6596e463551c3f465e5d9550"
+    },
+    {
+      "id": "6596e463551c3f465e5d9555",
+      "name": "Besprechungsraum klein 1",
+      "desc": "",
+      "objectId": "o5",
+      "categoryId": "6596e463551c3f465e5d9548"
+    },
+    {
+      "id": "6596e463551c3f465e5d9558",
+      "name": "Arbeitszimmer 1",
+      "desc": "",
+      "objectId": "o8",
+      "categoryId": "6596e463551c3f465e5d9550"
+    },
+    {
+      "id": "6596e463551c3f465e5d9551",
+      "name": "Besprechungsraum Belvedere",
+      "desc": "",
+      "objectId": "o1",
+      "categoryId": "6596e463551c3f465e5d9548"
+    },
+    {
+      "id": "6596e463551c3f465e5d9559",
+      "name": "Arbeitszimmer 2",
+      "desc": "",
+      "objectId": "o9",
+      "categoryId": "6596e463551c3f465e5d9550"
+    },
+    {
+      "id": "6596e463551c3f465e5d9562",
+      "name": "Karin Sitzwohls Schreibtisch",
+      "desc": "Schreibtisch von HR & Office Managerin",
+      "objectId": "o12",
+      "categoryId": "6596e463551c3f465e5d9547"
+    },
+    {
+      "id": "65b37d7c54aa79a37ec2dd79",
+      "name": "Cloudpilots 1",
+      "desc": "",
+      "objectId": "o13",
+      "categoryId": "6596e463551c3f465e5d9551"
+    },
+    {
+      "id": "65b37db054aa79a37ec2dd7a",
+      "name": "Cloudpilots 2",
+      "desc": "",
+      "objectId": "o14",
+      "categoryId": "6596e463551c3f465e5d9551"
+    },
+    {
+      "id": "65b37dc554aa79a37ec2dd7b",
+      "name": "IPG 1",
+      "desc": "",
+      "objectId": "o15",
+      "categoryId": "6596e463551c3f465e5d9551"
+    },
+    {
+      "id": "65b37dd254aa79a37ec2dd7c",
+      "name": "IPG 2",
+      "desc": "",
+      "objectId": "o16",
+      "categoryId": "6596e463551c3f465e5d9551"
+    },
+    {
+      "id": "65b37ddd54aa79a37ec2dd7d",
+      "name": "IPG 3",
+      "desc": "",
+      "objectId": "o17",
+      "categoryId": "6596e463551c3f465e5d9551"
+    },
+    {
+      "id": "65b37de554aa79a37ec2dd7e",
+      "name": "IPG 4",
+      "desc": "",
+      "objectId": "o18",
+      "categoryId": "6596e463551c3f465e5d9551"
+    },
+    {
+      "id": "65b37e0354aa79a37ec2dd7f",
+      "name": "Backoffice 2",
+      "desc": "",
+      "objectId": "o19",
+      "categoryId": "6596e463551c3f465e5d9551"
+    },
+    {
+      "id": "65b37e1b54aa79a37ec2dd80",
+      "name": "Shared Bereich 1",
+      "desc": "",
+      "objectId": "o20",
+      "categoryId": "6596e463551c3f465e5d9551"
+    },
+    {
+      "id": "65b37e2954aa79a37ec2dd81",
+      "name": "Shared Bereich 2",
+      "desc": "",
+      "objectId": "o21",
+      "categoryId": "6596e463551c3f465e5d9551"
+    },
+    {
+      "id": "65b37e3a54aa79a37ec2dd82",
+      "name": "Shared Bereich 3",
+      "desc": "",
+      "objectId": "o22",
+      "categoryId": "6596e463551c3f465e5d9551"
+    },
+    {
+      "id": "65b37e4b54aa79a37ec2dd83",
+      "name": "Backoffice 1",
+      "desc": "",
+      "objectId": "o23",
+      "categoryId": "6596e463551c3f465e5d9551"
+    },
+    {
+      "id": "65b37e4b54aa79a37ec2dd84",
+      "name": "Balkon",
+      "desc": "",
+      "objectId": "o24",
+      "categoryId": "65bb78f4112426d9dfe26f6f",
+      "categoryName": "Arbeitsbereich"
+    },
+    {
+      "id": "65bb79ef112426d9dfe26f76",
+      "name": "Reinigung",
+      "desc": "",
+      "objectId": "o26",
+      "categoryId": "65bbabe3d6f3029321a00fa7"
+    },
+    {
+      "id": "65bb79f4112426d9dfe26f77",
+      "name": "Archiv",
+      "desc": "",
+      "objectId": "o27",
+      "categoryId": "65bbabe3d6f3029321a00fa7"
+    },
+    {
+      "id": "65c28e13937c4426345ab57f",
+      "categoryId": "6596e463551c3f465e5d9551",
+      "name": "Balkon1",
+      "desc": "",
+      "objectId": "o28"
+    },
+    {
+      "id": "65ce1cbfa2e1aa9c182c3b1a",
+      "name": "Fahrstuhlbereich",
+      "desc": "",
+      "objectId": "o29",
+      "categoryId": "65bb78f4112426d9dfe26f6f",
+      "categoryName": "Arbeitsbereich"
+    },
+    {
+      "id": "65ce1cd5a2e1aa9c182c3b1b",
+      "name": "Männertoilette 1",
+      "desc": "",
+      "objectId": "o31",
+      "categoryId": "65d4b226bd0e0c5c56c96382",
+      "categoryName": "Arbeitsbereich"
+    },
+    {
+      "id": "65ce1cdba2e1aa9c182c3b1c",
+      "name": "Männertoilette 2",
+      "desc": "",
+      "objectId": "o32",
+      "categoryId": "65d4b226bd0e0c5c56c96382",
+      "categoryName": "Arbeitsbereich"
+    },
+    {
+      "id": "65ce1cefa2e1aa9c182c3b1d",
+      "name": "Frauentoilette 2",
+      "desc": "",
+      "objectId": "o34",
+      "categoryId": "65d4b226bd0e0c5c56c96382",
+      "categoryName": "Arbeitsbereich"
+    },
+    {
+      "id": "65ce1d75a2e1aa9c182c3b1e",
+      "name": "Frauentoilette 1",
+      "desc": "",
+      "objectId": "o33",
+      "categoryId": "65d4b226bd0e0c5c56c96382",
+      "categoryName": "Arbeitsbereich"
+    }
+  ],
+  "categories": [
+    { "id": "6596e463551c3f465e5d9550", "name": "Büro" },
+    { "id": "6596e463551c3f465e5d9547", "name": "Schreibtisch" },
+    { "id": "6596e463551c3f465e5d9548", "name": "Besprechungsraum" },
+    { "id": "6596e463551c3f465e5d9549", "name": "Küche" },
+    { "id": "6596e463551c3f465e5d9551", "name": "Arbeitsbereich" },
+    { "id": "65bb78f4112426d9dfe26f6f", "name": "Außenbereich" },
+    { "id": "65bbabe3d6f3029321a00fa7", "name": "Raum" },
+    { "id": "65d4b226bd0e0c5c56c96382", "name": "Sanitäranlage" }
+  ]
+}
