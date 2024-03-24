@@ -102,7 +102,7 @@ function ObjectItemDetailsModal({
                 }}
               >
                 {categories.map((category) => (
-                  <option key={category._id} value={category._id}>
+                  <option key={category.id} value={category.id}>
                     {category.name}
                   </option>
                 ))}
