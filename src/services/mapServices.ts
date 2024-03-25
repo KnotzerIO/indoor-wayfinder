@@ -1,5 +1,4 @@
 import { Beacon, Category, ObjectItem } from "@/utils/types";
-import { ObjectId } from "mongodb";
 import apiService from "./apiService";
 
 export async function getObjects(): Promise<ObjectItem[]> {
@@ -12,9 +11,9 @@ export async function getObjects(): Promise<ObjectItem[]> {
   }
 }
 
-export async function getObjectByObjectId(id: string): Promise<ObjectItem> {
+export async function getObjectById(id: string): Promise<ObjectItem> {
   try {
-    const response = await apiService.get(`/objects?objectId=${id}`);
+    const response = await apiService.get(`/objects/${id}`);
     return response.data[0] as ObjectItem;
   } catch (error) {
     console.error(`Error fetching object with ID ${id}:`, error);
@@ -67,7 +66,7 @@ export async function updateObject(
 }
 
 export async function updateCategory(
-  id: ObjectId,
+  id: string,
   updatedData: Partial<Category>
 ): Promise<Category | null> {
   try {

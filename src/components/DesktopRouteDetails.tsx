@@ -1,10 +1,14 @@
 import { useRouteDetails } from "@/hooks/useRouteDetails";
+import { MapDataContext } from "@/pages/Map";
+import { MapDataContextType } from "@/utils/types";
+import { useContext } from "react";
 import { FaX } from "react-icons/fa6";
 import { TbRoute } from "react-icons/tb";
 
 function DesktopRouteDetails() {
+  const { objects } = useContext(MapDataContext) as MapDataContextType;
   const { object, rightRouteLength, walkingTime, handleLeave } =
-    useRouteDetails();
+    useRouteDetails(objects);
 
   return (
     <div className="md:w-fit md:visible invisible hidden md:flex flex-row pl-6">

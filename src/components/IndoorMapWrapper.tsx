@@ -1,21 +1,18 @@
 import React, { useContext, useState } from "react";
 import { isMobile } from "react-device-detect";
 import { TransformComponent, TransformWrapper } from "react-zoom-pan-pinch";
-import { NavigationContext } from "../pages/Map";
+import { MapDataContext, NavigationContext } from "../pages/Map";
 import "../styles/map.css";
-import { NavigationContextType, ObjectItem } from "../utils/types";
 import {
-  MapBackground,
-  Paths,
-  Piktograms,
-  Positions,
-  Objects,
-} from "./IndoorMap";
+  MapDataContextType,
+  NavigationContextType,
+  ObjectItem,
+} from "../utils/types";
+import { MapBackground, Paths, Positions, Objects } from "./IndoorMap";
 
 import Controls from "./MapControls";
 import ObjectDetailsModal from "./Modals/ObjectDetailsModal";
 import { navigateToObject } from "@/utils/navigationHelper";
-import { getObjectByObjectId } from "@/services/mapServices";
 
 function IndoorMapWrapper() {
   const [modalOpen, setModalOpen] = useState(false);
@@ -24,13 +21,14 @@ function IndoorMapWrapper() {
   const { navigation, setNavigation, isEditMode, setIsEditMode } = useContext(
     NavigationContext
   ) as NavigationContextType;
+  const { objects } = useContext(MapDataContext) as MapDataContextType;
 
   async function handleObjectClick(e: React.MouseEvent<SVGPathElement>) {
     if (!isEditMode) {
       const targetId = (e.target as HTMLElement).id;
-      const selectedObject = await getObjectByObjectId(targetId);
+      const selectedObject = objects.find((obj) => obj.objectId === targetId);
       console.log(selectedObject);
-      if (selectedObject.id) {
+      if (selectedObject?.id) {
         setObject(selectedObject);
         setModalOpen(true);
       }
@@ -64,6 +62,7 @@ function IndoorMapWrapper() {
         doubleClick={{ mode: "reset" }}
         pinch={{ step: 20 }}
         initialScale={isMobile ? 0.4 : 1}
+        disabled={isEditMode}
       >
         <TransformComponent wrapperClass="bg-white">
           <MapBackground>

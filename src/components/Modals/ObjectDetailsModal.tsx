@@ -42,12 +42,19 @@ function ObjectItemDetailsModal({
 
   async function handleSaveChanges() {
     try {
-      await updateObject(object.objectId, {
+      console.log(JSON.stringify(object));
+      console.log("Edited Object:", {
+        objectId: object.objectId,
         categoryId: editedCategoryId,
         name: editedObjectName,
         desc: editedObjectDescription,
       });
-      await refetchData();
+      await updateObject(object.id, {
+        categoryId: editedCategoryId,
+        name: editedObjectName,
+        desc: editedObjectDescription,
+      });
+      refetchData();
       setIsEditMode(false);
       onClose();
     } catch (error) {
@@ -59,8 +66,7 @@ function ObjectItemDetailsModal({
     try {
       const newCategory = await createCategory({ name: newCategoryName });
       console.log("New Category:", newCategory);
-      await categories;
-      await refetchData();
+      refetchData();
       setNewCategoryModalOpen(false);
     } catch (error) {
       console.error("Error creating category:", error);

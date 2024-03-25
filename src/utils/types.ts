@@ -1,7 +1,7 @@
-import { ObjectId } from "mongodb";
+
 
 export interface ObjectItem {
-  id: number;
+  id: string;
   name: string;
   desc: string;
   objectId: string;
@@ -14,7 +14,7 @@ export interface Category {
 }
 
 export interface Beacon {
-  _id: ObjectId;
+  _id: string;
   beacon_id: string;
   rssi: number;
 }

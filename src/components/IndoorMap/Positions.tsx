@@ -21,8 +21,9 @@ function Positions({
   );
   return (
     <g id="Vertexes">
+      {/* Background circle for Google Maps like look */}
       <circle
-        id="start"
+        id="background-circle"
         cx={startVertex?.cx}
         cy={startVertex?.cy}
         fill={positionBackgroundColor}
@@ -34,13 +35,14 @@ function Positions({
           onClick={vertex.objectId ? () => {} : handlePositionClick}
           key={vertex.id}
           id={vertex.id}
-          // show only positions that are not referring to an object
+          // show only positions that are not referring to an object (e.g. shops, restrooms, etc.)
           className={`position ${vertex.objectId ? "opacity-0" : className} + ${vertex.id === navigation?.start ? "position-active opacity-100" : ""}`}
           cx={vertex.cx}
           cy={vertex.cy}
           r={positionRadius}
         />
       ))}
+      {/* Circle animation */}
       <circle
         id="circle-animation"
         cx={startVertex?.cx}

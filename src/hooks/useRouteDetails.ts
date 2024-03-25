@@ -1,11 +1,10 @@
 import { useContext, useEffect, useState } from "react";
 import { NavigationContext } from "@/pages/Map";
-import { getObjectByObjectId } from "@/services/mapServices";
 import { NavigationContextType, ObjectItem } from "@/utils/types";
 import { isMobile } from "react-device-detect";
 import { resetEdges } from "@/utils/navigationHelper";
 
-export function useRouteDetails() {
+export function useRouteDetails(allObjects: ObjectItem[]) {
   const { navigation, setNavigation } = useContext(
     NavigationContext
   ) as NavigationContextType;
@@ -20,8 +19,11 @@ export function useRouteDetails() {
     const fetchObject = async () => {
       try {
         if (!navigation.end) return;
-        const fetchedObject = await getObjectByObjectId(navigation.end);
-        setObject(fetchedObject);
+        allObjects.forEach((object) => {
+          if (object.objectId === navigation.end) {
+            setObject(object);
+          }
+        });
       } catch (error) {
         console.error(`Error fetching object by ID: ${navigation.end}`, error);
       }
