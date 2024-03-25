@@ -86,9 +86,7 @@ function Sidebar() {
                   {letter}
                   <span className="ml-2 text-sm font-medium text-gray-900">
                     - {parsedObjects[letter].len}{" "}
-                    {parsedObjects[letter].len === 1
-                      ? "Ergebnis"
-                      : "Ergebnisse"}
+                    {parsedObjects[letter].len === 1 ? "Result" : "Results"}
                   </span>
                 </h2>
               </header>
