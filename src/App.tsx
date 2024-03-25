@@ -6,6 +6,7 @@ import "./App.css";
 
 import Map from "./pages/Map";
 import { AdminContextType } from "./utils/types";
+
 export const AdminContext = createContext<AdminContextType | null>(null);
 function App() {
   return (

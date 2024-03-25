@@ -17,8 +17,6 @@ import ObjectDetailsModal from "./Modals/ObjectDetailsModal";
 import { navigateToObject } from "@/utils/navigationHelper";
 import { getObjectByObjectId } from "@/services/mapServices";
 
-//TODO: dark mode
-//TODO: create json file for map data from mongo db in case the database changes
 function IndoorMapWrapper() {
   const [modalOpen, setModalOpen] = useState(false);
   const [object, setObject] = useState<ObjectItem>({} as ObjectItem);
