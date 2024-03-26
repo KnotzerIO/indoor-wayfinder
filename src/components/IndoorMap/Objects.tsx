@@ -4,8 +4,8 @@ interface ObjectsProps {
 }
 function Objects({ handleObjectClick, className }: ObjectsProps) {
   return (
-    // TODO: Transfer from object id to normal id
-    <g id="Objects">
+    // TODO: Transfer from object id to name
+    <g id="Objects" visibility="hidden">
       <path
         id="o2"
         className={`${className} object`}
