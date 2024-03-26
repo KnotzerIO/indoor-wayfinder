@@ -1,13 +1,10 @@
-# Pathpal: Web-Based Indoor Navigation
-
-## Demo link:
-
-Access my site at: [https://pathpal-navigation.azurewebsites.net](https://pathpal-navigation.azurewebsites.net)
+# Pathpal: Web-Based Indoor Wayfinder
+Pathpal is an innovative web application designed to revolutionize indoor navigation. Using interactive maps and efficient pathfinding algorithms, it offers an intuitive solution for navigating complex indoor spaces.
+**Demo:** [Visit Pathpal](https://pathpal-navigation.azurewebsites.net)
 
 ## Table of Content:
 
-- [Pathpal: Web-Based Indoor Navigation](#pathpal-web-based-indoor-navigation)
-  - [Demo link:](#demo-link)
+- [Pathpal: Web-Based Indoor Wayfinder](#pathpal-web-based-indoor-wayfinder)
   - [Table of Content:](#table-of-content)
   - [About The App](#about-the-app)
   - [Screenshots](#screenshots)
@@ -15,7 +12,9 @@ Access my site at: [https://pathpal-navigation.azurewebsites.net](https://pathpa
   - [Technologies](#technologies)
   - [Setup](#setup)
   - [Status](#status)
-  - [Technical Background](#technical-background)
+  - [Technical Insights](#technical-insights)
+    - [Map Technology](#map-technology)
+    - [Pathfinding](#pathfinding)
     - [Core Map Technology](#core-map-technology)
     - [Path Drawing and Wayfinding](#path-drawing-and-wayfinding)
     - [Customizing the Map](#customizing-the-map)
@@ -41,13 +40,22 @@ This project is a variation of my diploma project, focusing on an interactive ma
 
 ## Technologies
 
-`React` `Vite` `Typescript` `TailwindCSS` `SVG` `Dijkstra`
+Pathpal is built with the latest web technologies for speed, efficiency, and adaptability:
+
+- React
+- Vite
+- TypeScript
+- TailwindCSS
+- SVG
+- Dijkstra's Algorithm
+- JSON Server
 
 ## Setup
 
-Clone down this repository. You will need `node` and `npm` installed globally on your machine.
+Clone down this repository.
+**Install Node.js**: If you don't have Node.js version 21, download and install it from [nodejs.org](https://nodejs.org/).
 
-Installation:Œ
+Installation:
 `npm install`
 
 To Run Test Suite:  
@@ -61,11 +69,20 @@ Upon running these commands, your default web browser should open the project ru
 
 ## Status
 
-While this project stands as a fully functional prototype, it is continuously evolving. It aims to inspire future innovations, with plans to revisit and potentially integrate more advanced positioning technologies as they mature.
+Pathpal is currently a functional prototype. Future updates may include a map editor for enhanced customization.
 
-## Technical Background
+## Technical Insights
 
-The map serves as the cornerstone of our web-based indoor navigation application. It's designed to be both versatile and adaptable, accommodating various indoor layouts with precision and ease. Here's an insight into the technical foundation of the map functionality and how developers can customize it for their specific needs:
+### Map Technology
+
+- **SVG Format**: The map is primarily SVG for its flexibility and interactive capabilities, ideal for detailed navigation.
+- **Image Format Support**: Supports various formats like PNG and JPEG for map backgrounds, with interactive features best suited for SVG.
+
+### Pathfinding
+
+- **Routes Definition**: Paths within the map represent navigable routes, essential for the Dijkstra algorithm to calculate efficient paths.
+- **Dijkstra Algorithm**: Ensures accurate and swift navigation between POIs.
+
 
 ### Core Map Technology
 
@@ -79,13 +96,12 @@ The map serves as the cornerstone of our web-based indoor navigation application
 
 ### Customizing the Map
 
-- **Editing Tools**: Developers can use vector graphic editing tools (e.g., Adobe Illustrator, Boxy SVG) to modify the SVG map. This includes updating layouts, adding/removing POIs, and adjusting paths.
-- **Adapting to New Formats**: If using a non-SVG background image, developers should overlay an SVG layer for paths and POIs. This hybrid approach allows the use of detailed backgrounds with scalable vector paths for interaction.
+- **Editing Tools**: Developers can use vector graphic editing tools (e.g., Adobe Illustrator, Boxy SVG) to modify the SVG map. This includes updating layouts, adding/removing POIs, and adjusting paths. See the screenshot below for an example of map editing in action with Boxy SVG.
 
 ## Credits
 
-This project was inspired by my diploma work and the continuous support from my mentors and peers.
+This project was inspired by my diploma work and significantly influenced by the support of mentors, peers, and resources like [maciejb2k's pathfinding app](https://github.com/maciejb2k/pathfinding_app).
 
 ## License
 
-This project is open source and available under the MIT License.
+Pathpal is open-sourced under the MIT License. Contributions and feedback are welcome!
