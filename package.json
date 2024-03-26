@@ -51,5 +51,8 @@
     "typescript": "^5.0.2",
     "vite": "^4.4.5",
     "vite-plugin-image-optimizer": "^1.1.7"
+  },
+  "engines": {
+    "node": "21.x"
   }
 }
