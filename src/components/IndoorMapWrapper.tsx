@@ -62,7 +62,6 @@ function IndoorMapWrapper() {
         doubleClick={{ mode: "reset" }}
         pinch={{ step: 20 }}
         initialScale={isMobile ? 0.4 : 1}
-        disabled={isEditMode}
       >
         <TransformComponent wrapperClass="bg-white">
           <MapBackground>
