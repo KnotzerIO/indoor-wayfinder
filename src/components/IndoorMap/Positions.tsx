@@ -19,6 +19,10 @@ function Positions({
   const startVertex = graphData.vertices.find(
     (v) => v.id === navigation?.start
   );
+
+  function isActivePosition(vertexId: string) {
+    return navigation?.start === vertexId;
+  }
   return (
     <g id="Vertexes">
       {/* Background circle for Google Maps like look */}
@@ -37,7 +41,7 @@ function Positions({
           key={vertex.id}
           id={vertex.id}
           // show only positions that are not referring to an object (e.g. shops, restrooms, etc.)
-          className={`position ${vertex.objectId ? "opacity-0" : className} + ${vertex.id === navigation?.start ? "position-active opacity-100" : ""}`}
+          className={`position ${vertex.objectId ? "opacity-0" : className} ${isActivePosition(vertex.id) && "position-active opacity-100"}`}
           cx={vertex.cx}
           cy={vertex.cy}
           r={positionRadius}
