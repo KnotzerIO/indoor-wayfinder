@@ -2,7 +2,7 @@ import IndoorMapWrapper from "@/components/IndoorMapWrapper";
 import MobileRouteDetails from "@/components/MobileRouteDetails";
 import Toolbar from "@/components/Toolbar";
 import useMapData from "@/hooks/useMapData";
-import { createContext, lazy, useEffect, useState } from "react";
+import { createContext, useEffect, useState } from "react";
 import { isDesktop, isMobile } from "react-device-detect";
 import { useSearchParams } from "react-router-dom";
 import {
@@ -10,7 +10,8 @@ import {
   Navigation,
   NavigationContextType,
 } from "../utils/types";
-const Sidebar = lazy(() => import("../components/Sidebar"));
+import Sidebar from "@/components/Sidebar";
+
 export const NavigationContext = createContext<NavigationContextType | null>(
   null
 );
