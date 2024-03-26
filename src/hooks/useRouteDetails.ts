@@ -1,7 +1,6 @@
 import { useContext, useEffect, useState } from "react";
 import { NavigationContext } from "@/pages/Map";
 import { NavigationContextType, ObjectItem } from "@/utils/types";
-import { isMobile } from "react-device-detect";
 import { resetEdges } from "@/utils/navigationHelper";
 
 export function useRouteDetails(allObjects: ObjectItem[]) {
@@ -34,8 +33,8 @@ export function useRouteDetails(allObjects: ObjectItem[]) {
         "navigation-route"
       ) as SVGPathElement | null;
       const routeLength = navigationRoutePath?.getTotalLength() || 0;
-      const mapRatio = 20.328;
-      const walkingSpeed = isMobile ? 1.2 : 1.4; // Adjusted based on context
+      const mapRatio = 20; // fictional ratio
+      const walkingSpeed = 1.4; // m/s
       const rightRouteLength = Math.round((routeLength / mapRatio) * 10) / 10;
       const walkingTime = Math.round(rightRouteLength / walkingSpeed);
 
