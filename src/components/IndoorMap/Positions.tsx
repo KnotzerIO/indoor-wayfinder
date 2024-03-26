@@ -32,6 +32,7 @@ function Positions({
       />
       {graphData.vertices.map((vertex) => (
         <circle
+          // only allow click on positions that are not referring to an object
           onClick={vertex.objectId ? () => {} : handlePositionClick}
           key={vertex.id}
           id={vertex.id}
