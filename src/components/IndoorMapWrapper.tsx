@@ -26,7 +26,7 @@ function IndoorMapWrapper() {
   async function handleObjectClick(e: React.MouseEvent<SVGPathElement>) {
     if (!isEditMode) {
       const targetId = (e.target as HTMLElement).id;
-      const selectedObject = objects.find((obj) => obj.objectId === targetId);
+      const selectedObject = objects.find((obj) => obj.name === targetId);
       console.log(selectedObject);
       if (selectedObject?.id) {
         setObject(selectedObject);
@@ -44,7 +44,7 @@ function IndoorMapWrapper() {
 
   function handleNavigationClick() {
     setModalOpen(false);
-    navigateToObject(object.objectId, navigation, setNavigation);
+    navigateToObject(object.name, navigation, setNavigation);
   }
   return (
     <div className="relative w-full h-full bg-white center">
@@ -78,7 +78,7 @@ function IndoorMapWrapper() {
             <Positions
               positionRadius={positionRadius}
               handlePositionClick={handlePositionClick}
-              className={isEditMode ? "opacity-100" : "opacity-0"}
+              className={isEditMode ? "opacity-100" : "opacity-100"}
               navigation={navigation}
             />
           </MapBackground>

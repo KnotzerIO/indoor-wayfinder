@@ -6,7 +6,7 @@ import { graphData } from "@/store/graphData";
 export let routeLength = 0;
 
 const findVertexByObjectId = (vertexId: string) =>
-  graphData.vertices.find((v) => v.objectId === vertexId);
+  graphData.vertices.find((v) => v.objectName === vertexId);
 
 export function navigateToObject(
   selectedObjectId: string,
@@ -73,7 +73,7 @@ export function navigateWithDelay(
 ) {
   if (index < objects.length) {
     const obj = objects[index];
-    navigateToObject(obj.objectId, navigation, setNavigation);
+    navigateToObject(obj.name, navigation, setNavigation);
 
     setTimeout(() => {
       navigateWithDelay(objects, index + 1, delay, navigation, setNavigation);

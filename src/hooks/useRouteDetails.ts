@@ -19,7 +19,7 @@ export function useRouteDetails(allObjects: ObjectItem[]) {
       try {
         if (!navigation.end) return;
         allObjects.forEach((object) => {
-          if (object.objectId === navigation.end) {
+          if (object.name === navigation.end) {
             setObject(object);
           }
         });

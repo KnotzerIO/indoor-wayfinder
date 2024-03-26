@@ -42,13 +42,6 @@ function ObjectItemDetailsModal({
 
   async function handleSaveChanges() {
     try {
-      console.log(JSON.stringify(object));
-      console.log("Edited Object:", {
-        objectId: object.objectId,
-        categoryId: editedCategoryId,
-        name: editedObjectName,
-        desc: editedObjectDescription,
-      });
       await updateObject(object.id, {
         categoryId: editedCategoryId,
         name: editedObjectName,

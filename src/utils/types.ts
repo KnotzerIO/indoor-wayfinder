@@ -4,7 +4,6 @@ export interface ObjectItem {
   id: string;
   name: string;
   desc: string;
-  objectId: string;
   categoryId: string;
   categoryName?: string;
 }

@@ -75,7 +75,7 @@ function SearchBar() {
         console.log(suggestions[selectedIndex].categoryName);
 
         navigateToObject(
-          suggestions[selectedIndex].objectId,
+          suggestions[selectedIndex].name,
           navigation,
           setNavigation
         );
@@ -128,7 +128,7 @@ function SearchBar() {
         return;
       }
     }
-    navigateToObject(matchingObject.objectId, navigation, setNavigation);
+    navigateToObject(matchingObject.name, navigation, setNavigation);
     setSelectedIndex(-1);
   }
 
@@ -164,7 +164,7 @@ function SearchBar() {
               {suggestions.length > 0 ? (
                 suggestions.map((obj, index) => (
                   <li
-                    key={obj.objectId}
+                    key={index}
                     className={`cursor-pointer p-2 border-t text-gray-600 hover:bg-gray-200 active:bg-gray-300 text-sm md:text-md ${
                       selectedIndex === index
                         ? "border-l-4 border-blue-500 bg-gray-200"

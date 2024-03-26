@@ -37,11 +37,11 @@ function Positions({
       {graphData.vertices.map((vertex) => (
         <circle
           // only allow click on positions that are not referring to an object
-          onClick={vertex.objectId ? () => {} : handlePositionClick}
+          onClick={vertex.objectName ? () => {} : handlePositionClick}
           key={vertex.id}
           id={vertex.id}
           // show only positions that are not referring to an object (e.g. shops, restrooms, etc.)
-          className={`position ${vertex.objectId ? "opacity-0" : className} ${isActivePosition(vertex.id) && "position-active opacity-100"}`}
+          className={`position ${vertex.objectName ? "opacity-0" : className} ${isActivePosition(vertex.id) && "position-active opacity-100"}`}
           cx={vertex.cx}
           cy={vertex.cy}
           r={positionRadius}
