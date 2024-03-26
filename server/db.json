@@ -1,234 +1,206 @@
 {
   "objects": [
     {
-      "id": "6596e463551c3f465e5d9554",
-      "name": "Besprechungsraum Schweizer Garten",
+      "categoryId": "c1d2",
+      "name": "MediaMark",
       "desc": "",
-      "objectId": "o4",
-      "categoryId": "6596e463551c3f465e5d9548"
+      "id": "a1b2"
     },
     {
-      "id": "6596e463551c3f465e5d9557",
-      "name": "Küche",
-      "desc": "",
-      "objectId": "o7",
-      "categoryId": "6596e463551c3f465e5d9549"
-    },
-    {
-      "id": "6596e463551c3f465e5d9552",
-      "name": "Besprechungsraum Oberlaa",
+      "id": "b2c3",
+      "name": "Knotzer Fried Chicken",
       "desc": "",
       "objectId": "o2",
-      "categoryId": "6596e463551c3f465e5d9548"
+      "categoryId": "c2d3"
     },
     {
-      "id": "6596e463551c3f465e5d9553",
-      "name": "Besprechungsraum Arsenal",
+      "id": "c3d4",
+      "name": "McDonald’s",
       "desc": "",
       "objectId": "o3",
-      "categoryId": "6596e463551c3f465e5d9548"
+      "categoryId": "c3d4"
     },
     {
-      "id": "6596e463551c3f465e5d9561",
-      "name": "",
+      "id": "d4e5",
+      "name": "Rolex",
       "desc": "",
-      "objectId": "o11",
-      "categoryId": "6596e463551c3f465e5d9547"
+      "objectId": "o4",
+      "categoryId": "c4d5"
     },
     {
-      "id": "6596e463551c3f465e5d9556",
-      "name": "Besprechungsraum klein 2",
-      "desc": "",
-      "objectId": "o6",
-      "categoryId": "6596e463551c3f465e5d9548"
-    },
-    {
-      "id": "6596e463551c3f465e5d9560",
-      "name": "Arbeitszimmer 3",
-      "desc": "",
-      "objectId": "o10",
-      "categoryId": "6596e463551c3f465e5d9550"
-    },
-    {
-      "id": "6596e463551c3f465e5d9555",
-      "name": "Besprechungsraum klein 1",
+      "id": "e5f6",
+      "name": "Louis Vuitton",
       "desc": "",
       "objectId": "o5",
-      "categoryId": "6596e463551c3f465e5d9548"
+      "categoryId": "c5d6"
     },
     {
-      "id": "6596e463551c3f465e5d9558",
-      "name": "Arbeitszimmer 1",
+      "id": "f6g7",
+      "name": "Gucci",
+      "desc": "",
+      "objectId": "o6",
+      "categoryId": "c6d7"
+    },
+    {
+      "id": "g7h8",
+      "name": "Chanel",
+      "desc": "",
+      "objectId": "o7",
+      "categoryId": "c7d8"
+    },
+    {
+      "id": "h8i9",
+      "name": "Levi's",
       "desc": "",
       "objectId": "o8",
-      "categoryId": "6596e463551c3f465e5d9550"
+      "categoryId": "c8d9"
     },
     {
-      "id": "6596e463551c3f465e5d9551",
-      "name": "Besprechungsraum Belvedere",
-      "desc": "",
-      "objectId": "o1",
-      "categoryId": "6596e463551c3f465e5d9548"
-    },
-    {
-      "id": "6596e463551c3f465e5d9559",
-      "name": "Arbeitszimmer 2",
+      "id": "i9j0",
+      "name": "Mall Office",
       "desc": "",
       "objectId": "o9",
-      "categoryId": "6596e463551c3f465e5d9550"
+      "categoryId": "c9d0"
     },
     {
-      "id": "6596e463551c3f465e5d9562",
-      "name": "",
+      "id": "j0k1",
+      "name": "Zara",
+      "desc": "",
+      "objectId": "o10",
+      "categoryId": "d0e1"
+    },
+    {
+      "id": "k1l2",
+      "name": "McShark",
+      "desc": "",
+      "objectId": "o11",
+      "categoryId": "e1f2"
+    },
+    {
+      "id": "l2m3",
+      "name": "Nike",
       "desc": "",
       "objectId": "o12",
-      "categoryId": "6596e463551c3f465e5d9547"
+      "categoryId": "f2g3"
     },
     {
-      "id": "65b37d7c54aa79a37ec2dd79",
-      "name": "Cloudpilots 1",
+      "id": "m3n4",
+      "name": "Adidas",
       "desc": "",
       "objectId": "o13",
-      "categoryId": "6596e463551c3f465e5d9551"
+      "categoryId": "g3h4"
     },
     {
-      "id": "65b37db054aa79a37ec2dd7a",
-      "name": "Cloudpilots 2",
+      "id": "n4o5",
+      "name": "Primark",
       "desc": "",
       "objectId": "o14",
-      "categoryId": "6596e463551c3f465e5d9551"
+      "categoryId": "h4i5"
     },
     {
-      "id": "65b37dc554aa79a37ec2dd7b",
-      "name": "IPG 1",
+      "id": "o5p6",
+      "name": "Svarovski",
       "desc": "",
       "objectId": "o15",
-      "categoryId": "6596e463551c3f465e5d9551"
+      "categoryId": "i5j6"
     },
     {
-      "id": "65b37dd254aa79a37ec2dd7c",
-      "name": "IPG 2",
+      "id": "p6q7",
+      "name": "H&M",
       "desc": "",
       "objectId": "o16",
-      "categoryId": "6596e463551c3f465e5d9551"
+      "categoryId": "j6k7"
     },
     {
-      "id": "65b37ddd54aa79a37ec2dd7d",
-      "name": "IPG 3",
+      "id": "q7r8",
+      "name": "Vans",
       "desc": "",
       "objectId": "o17",
-      "categoryId": "6596e463551c3f465e5d9551"
+      "categoryId": "k7l8"
     },
     {
-      "id": "65b37de554aa79a37ec2dd7e",
-      "name": "IPG 4",
+      "id": "r8s9",
+      "name": "Starbucks",
       "desc": "",
       "objectId": "o18",
-      "categoryId": "6596e463551c3f465e5d9551"
+      "categoryId": "l8m9"
     },
     {
-      "id": "65b37e0354aa79a37ec2dd7f",
-      "name": "Backoffice 2",
+      "id": "s9t0",
+      "name": "7-Eleven",
       "desc": "",
       "objectId": "o19",
-      "categoryId": "6596e463551c3f465e5d9551"
+      "categoryId": "m9n0"
     },
     {
-      "id": "65b37e1b54aa79a37ec2dd80",
-      "name": "Shared Bereich 1",
+      "id": "t0u1",
+      "name": "Victoria's Secret",
       "desc": "",
       "objectId": "o20",
-      "categoryId": "6596e463551c3f465e5d9551"
+      "categoryId": "n0o1"
     },
     {
-      "id": "65b37e2954aa79a37ec2dd81",
-      "name": "Shared Bereich 2",
+      "id": "u1v2",
+      "name": "Pandora",
       "desc": "",
       "objectId": "o21",
-      "categoryId": "6596e463551c3f465e5d9551"
+      "categoryId": "o1p2"
     },
     {
-      "id": "65b37e3a54aa79a37ec2dd82",
-      "name": "Shared Bereich 3",
+      "id": "v2w3",
+      "name": "Foot Locker",
       "desc": "",
       "objectId": "o22",
-      "categoryId": "6596e463551c3f465e5d9551"
+      "categoryId": "p2q3"
     },
     {
-      "id": "65b37e4b54aa79a37ec2dd83",
-      "name": "Backoffice 1",
+      "id": "w3x4",
+      "name": "Pharmacy",
       "desc": "",
       "objectId": "o23",
-      "categoryId": "6596e463551c3f465e5d9551"
+      "categoryId": "q3r4"
     },
     {
-      "id": "65b37e4b54aa79a37ec2dd84",
-      "name": "Balkon",
+      "id": "x4y5",
+      "name": "GameStop",
       "desc": "",
       "objectId": "o24",
-      "categoryId": "65bb78f4112426d9dfe26f6f",
-      "categoryName": "Arbeitsbereich"
+      "categoryId": "r4s5"
     },
     {
-      "id": "65bb79ef112426d9dfe26f76",
-      "name": "Reinigung",
+      "id": "y5z6",
+      "name": "Claire's",
+      "desc": "",
+      "objectId": "o25",
+      "categoryId": "s5t6"
+    },
+    {
+      "id": "z6a7",
+      "name": "Tobacco Shop",
       "desc": "",
       "objectId": "o26",
-      "categoryId": "65bbabe3d6f3029321a00fa7"
+      "categoryId": "t6u7"
     },
     {
-      "id": "65bb79f4112426d9dfe26f77",
-      "name": "Archiv",
+      "id": "a7b8",
+      "name": "Sephora",
       "desc": "",
       "objectId": "o27",
-      "categoryId": "65bbabe3d6f3029321a00fa7"
+      "categoryId": "u7v8"
     },
     {
-      "id": "65c28e13937c4426345ab57f",
-      "categoryId": "6596e463551c3f465e5d9551",
-      "name": "Balkon1",
+      "id": "b8c9",
+      "name": "PetSmart",
       "desc": "",
-      "objectId": "o28"
+      "objectId": "o28",
+      "categoryId": "v8w9"
     },
     {
-      "id": "65ce1cbfa2e1aa9c182c3b1a",
-      "name": "Fahrstuhlbereich",
+      "id": "c9d0",
+      "name": "Barbershop",
       "desc": "",
       "objectId": "o29",
-      "categoryId": "65bb78f4112426d9dfe26f6f",
-      "categoryName": "Arbeitsbereich"
-    },
-    {
-      "id": "65ce1cd5a2e1aa9c182c3b1b",
-      "name": "Männertoilette 1",
-      "desc": "",
-      "objectId": "o31",
-      "categoryId": "65d4b226bd0e0c5c56c96382",
-      "categoryName": "Arbeitsbereich"
-    },
-    {
-      "id": "65ce1cdba2e1aa9c182c3b1c",
-      "name": "Männertoilette 2",
-      "desc": "",
-      "objectId": "o32",
-      "categoryId": "65d4b226bd0e0c5c56c96382",
-      "categoryName": "Arbeitsbereich"
-    },
-    {
-      "id": "65ce1cefa2e1aa9c182c3b1d",
-      "name": "Frauentoilette 2",
-      "desc": "",
-      "objectId": "o34",
-      "categoryId": "65d4b226bd0e0c5c56c96382",
-      "categoryName": "Arbeitsbereich"
-    },
-    {
-      "id": "65ce1d75a2e1aa9c182c3b1e",
-      "name": "Frauentoilette 1",
-      "desc": "",
-      "objectId": "o33",
-      "categoryId": "65d4b226bd0e0c5c56c96382",
-      "categoryName": "Arbeitsbereich"
+      "categoryId": "w9x0"
     }
   ],
   "categories": [
