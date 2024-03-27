@@ -3,6 +3,7 @@ import { graph } from "../algorithms/dijkstra";
 import { Navigation, NavigationContextType } from "./types";
 import { ObjectItem } from "./types";
 import { graphData } from "@/store/graphData";
+import { toast } from "react-toastify";
 export let routeLength = 0;
 
 const findVertexByObjectId = (vertexId: string) =>
@@ -16,6 +17,7 @@ export function navigateToObject(
   const target = findVertexByObjectId(selectedObjectId);
   if (!target) {
     console.error("Target not found");
+    toast.error("Target not found");
     return;
   }
 

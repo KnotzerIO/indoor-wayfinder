@@ -13,6 +13,7 @@ import { MapBackground, Paths, Positions, Objects } from "./IndoorMap";
 import Controls from "./MapControls";
 import ObjectDetailsModal from "./Modals/ObjectDetailsModal";
 import { navigateToObject } from "@/utils/navigationHelper";
+import { toast } from "react-toastify";
 
 function IndoorMapWrapper() {
   const [modalOpen, setModalOpen] = useState(false);
@@ -29,6 +30,8 @@ function IndoorMapWrapper() {
       if (selectedObject?.id) {
         setObject(selectedObject);
         setModalOpen(true);
+      } else {
+        toast.error("Object not found");
       }
     }
   }
