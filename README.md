@@ -1,4 +1,5 @@
 # Pathpal: Web-Based Indoor Wayfinder
+
 Pathpal is an innovative web application designed to revolutionize indoor navigation. Using interactive maps and efficient pathfinding algorithms, it offers an intuitive solution for navigating complex indoor spaces.
 **Demo:** [Visit Pathpal](https://pathpal-navigation.azurewebsites.net)
 
@@ -52,20 +53,31 @@ Pathpal is built with the latest web technologies for speed, efficiency, and ada
 
 ## Setup
 
-Clone down this repository.
-**Install Node.js**: If you don't have Node.js version 21, download and install it from [nodejs.org](https://nodejs.org/).
+Follow these steps to get the project up and running:
 
-Installation:
-`npm install`
+1. **Clone the Repository**: Use your preferred Git client to clone this repository to your local machine.
 
-To Run Test Suite:  
-`npm test`
+2. **Install Node.js**: This project requires Node.js. If you don't have Node.js version 21 installed, you can download and install it from [nodejs.org](https://nodejs.org/).
 
-To Start Server:
+3. **Install Dependencies**: Navigate to the project directory in your terminal and run the following command to install the necessary dependencies:
 
-`npm start`
+   ```bash
+   npm install
+   ```
 
-Upon running these commands, your default web browser should open the project running on `localhost` with the port `5173`
+4. **Start the Application**: Once the dependencies are installed, you can start the application by running the following command in your terminal:
+
+   ```bash
+   npm run dev
+   ```
+
+5. **Start the Server**: In a separate terminal window, start the server by running:
+
+   ```bash
+   npm run server
+   ```
+
+After running these commands, your default web browser should automatically open and navigate to `localhost:5173`, where you can see the running application. The server will be running on `localhost:8080`.
 
 ## Status
 
@@ -83,7 +95,6 @@ Pathpal is currently a functional prototype. Future updates may include a map ed
 - **Routes Definition**: Paths within the map represent navigable routes, essential for the Dijkstra algorithm to calculate efficient paths.
 - **Dijkstra Algorithm**: Ensures accurate and swift navigation between POIs.
 
-
 ### Core Map Technology
 
 - **SVG as the Default Format**: The application primarily uses an SVG (Scalable Vector Graphics) file for the map due to its scalability and ease of manipulation. SVGs allow for interactive and dynamic rendering of indoor spaces, making them ideal for detailed navigation paths.
@@ -96,7 +107,7 @@ Pathpal is currently a functional prototype. Future updates may include a map ed
 
 ### Customizing the Map
 
-- **Editing Tools**: Developers can use vector graphic editing tools (e.g., Adobe Illustrator, Boxy SVG) to modify the SVG map. This includes updating layouts, adding/removing POIs, and adjusting paths. See the screenshot below for an example of map editing in action with Boxy SVG.
+- **Editing Tools**: Developers have the option to utilize vector graphic editing tools such as Adobe Illustrator or Boxy SVG for modifying the SVG map. This modification can involve updating layouts, adding or removing Points of Interest (POIs), and adjusting paths. Refer to the screenshot below to see an example of map editing using Boxy SVG. For converting SVG to JSX, [Transform Tools](https://transform.tools/) can be a useful resource.
 
 ## Credits
 
