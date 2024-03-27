@@ -77,6 +77,12 @@ Follow these steps to get the project up and running:
    npm run server
    ```
 
+6. **Run Both at The Same Time**: If you want to start both the application and the server at the same time, you can run the following command:
+
+   ```bash
+   npm run dev:all
+   ```
+
 After running these commands, your default web browser should automatically open and navigate to `localhost:5173`, where you can see the running application. The server will be running on `localhost:8080`.
 
 ## Status
