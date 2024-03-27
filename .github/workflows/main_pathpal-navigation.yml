@@ -25,11 +25,9 @@ jobs:
         run: |
           npm install
           npm run build 
-          rm -r node_modules
-          npm prune --production
 
       - name: Zip artifact for deployment
-        run: zip release.zip ./* -r
+        run: zip release.zip ./* -r -x .git/\* .github/\* node_modules/\* .gitignore .env
 
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v3
