@@ -6,9 +6,8 @@ import { FaX } from "react-icons/fa6";
 import { TbRoute } from "react-icons/tb";
 
 function DesktopRouteDetails() {
-  const { objects } = useContext(MapDataContext) as MapDataContextType;
   const { object, rightRouteLength, walkingTime, handleLeave } =
-    useRouteDetails(objects);
+    useRouteDetails();
 
   return (
     <div className="md:w-fit md:visible invisible hidden md:flex flex-row pl-6">

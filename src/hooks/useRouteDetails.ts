@@ -1,9 +1,14 @@
 import { useContext, useEffect, useState } from "react";
-import { NavigationContext } from "@/pages/Map";
-import { NavigationContextType, ObjectItem } from "@/utils/types";
+import { MapDataContext, NavigationContext } from "@/pages/Map";
+import {
+  MapDataContextType,
+  NavigationContextType,
+  ObjectItem,
+} from "@/utils/types";
 import { resetEdges } from "@/utils/navigationHelper";
 
-export function useRouteDetails(allObjects: ObjectItem[]) {
+export function useRouteDetails() {
+  const { objects } = useContext(MapDataContext) as MapDataContextType;
   const { navigation, setNavigation } = useContext(
     NavigationContext
   ) as NavigationContextType;
@@ -18,9 +23,9 @@ export function useRouteDetails(allObjects: ObjectItem[]) {
     const fetchObject = async () => {
       try {
         if (!navigation.end) return;
-        allObjects.forEach((object) => {
-          if (object.name === navigation.end) {
-            setObject(object);
+        objects.forEach((obj) => {
+          if (obj.name === navigation.end) {
+            setObject(obj);
           }
         });
       } catch (error) {
