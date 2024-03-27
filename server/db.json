@@ -2,177 +2,195 @@
   "objects": [
     {
       "id": "a1b2",
-      "name": "MediaMark",
-      "desc": "",
-      "categoryId": "c1d2"
+      "categoryId": "a191",
+      "name": "MediaMarkt",
+      "desc": "Your go-to spot for the latest in electronics and appliances"
     },
     {
       "id": "b2c3",
-      "name": "Knotzer Fried Chicken",
-      "desc": "",
-      "categoryId": "c2d3"
+      "categoryId": "e928",
+      "name": "KFC",
+      "desc": "A perfect place for enjoying crispy fried chicken and sides"
     },
     {
       "id": "c3d4",
-      "name": "McDonald’s",
-      "desc": "",
-      "categoryId": "c3d4"
+      "categoryId": "e928",
+      "name": "McDonald's",
+      "desc": "Classic fast-food chain for burgers, fries, and quick meals"
     },
     {
       "id": "d4e5",
+      "categoryId": "d21e",
       "name": "Rolex",
-      "desc": "",
-      "categoryId": "c4d5"
+      "desc": "Swiss luxury watches for discerning customers"
     },
     {
       "id": "e5f6",
+      "categoryId": "d21e",
       "name": "Louis Vuitton",
-      "desc": "",
-      "categoryId": "c5d6"
+      "desc": "High-end bags, luggage, and accessories"
     },
     {
       "id": "f6g7",
+      "categoryId": "d21e",
       "name": "Gucci",
-      "desc": "",
-      "categoryId": "c6d7"
+      "desc": " Italian luxury fashion for trendsetters"
     },
     {
       "id": "g7h8",
+      "categoryId": "d21e",
       "name": "Chanel",
-      "desc": "",
-      "categoryId": "c7d8"
+      "desc": "Iconic fashion, fragrance, and accessory collections"
     },
     {
       "id": "h8i9",
+      "categoryId": "87b0",
       "name": "Levi's",
-      "desc": "",
-      "categoryId": "c8d9"
+      "desc": "he classic American denim and casual wear"
     },
     {
       "id": "i9j0",
+      "categoryId": "58a9",
       "name": "Mall Office",
-      "desc": "",
-      "categoryId": "c9d0"
+      "desc": "For all your mall inquiries and services"
     },
     {
       "id": "j0k1",
-      "categoryId": "52f1",
+      "categoryId": "87b0",
       "name": "Zara",
-      "desc": ""
+      "desc": "Latest trends in apparel and accessories"
     },
     {
       "id": "k1l2",
       "categoryId": "a191",
       "name": "McShark",
-      "desc": ""
+      "desc": "Specializing in Apple products and accessories"
     },
     {
       "id": "l2m3",
-      "categoryId": "52f1",
+      "categoryId": "87b0",
       "name": "Nike",
-      "desc": ""
+      "desc": "Global leader in athletic footwear, apparel, and equipmen"
     },
     {
       "id": "m3n4",
-      "categoryId": "58a9",
+      "categoryId": "87b0",
       "name": "Adidas",
-      "desc": ""
+      "desc": "Athletic wear and performance gear"
     },
     {
       "id": "n4o5",
       "categoryId": "52f1",
       "name": "Primark",
-      "desc": ""
-    },
-    {
-      "id": "o5p6",
-      "categoryId": "d21e",
-      "name": "Svarovski",
-      "desc": ""
+      "desc": "Affordable fashion for the whole family"
     },
     {
       "id": "p6q7",
-      "categoryId": "52f1",
+      "categoryId": "87b0",
       "name": "H&M",
-      "desc": ""
+      "desc": "Fashion and quality at the best price"
     },
     {
       "id": "q7r8",
+      "categoryId": "87b0",
       "name": "Vans",
-      "desc": "",
-      "categoryId": "k7l8"
+      "desc": "Authentic skateboarding footwear and apparel"
     },
     {
       "id": "r8s9",
+      "categoryId": "e928",
       "name": "Starbucks",
-      "desc": "",
-      "categoryId": "l8m9"
+      "desc": "Your favorite brews and snacks"
     },
     {
       "id": "s9t0",
+      "categoryId": "52f1",
       "name": "7-Eleven",
-      "desc": "",
-      "categoryId": "m9n0"
+      "desc": "Convenience store for your needs"
     },
     {
       "id": "t0u1",
+      "categoryId": "87b0",
       "name": "Victoria's Secret",
-      "desc": "",
-      "categoryId": "n0o1"
+      "desc": "Exquisite lingerie, sleepwear, and beauty products"
     },
     {
       "id": "u1v2",
+      "categoryId": "d21e",
       "name": "Pandora",
-      "desc": "",
-      "categoryId": "o1p2"
+      "desc": "Customizable charm bracelets, rings, and more"
     },
     {
       "id": "v2w3",
+      "categoryId": "87b0",
       "name": "Foot Locker",
-      "desc": "",
-      "categoryId": "p2q3"
+      "desc": "The latest in athletic footwear and apparel"
     },
     {
       "id": "w3x4",
+      "categoryId": "52f1",
       "name": "Pharmacy",
-      "desc": "",
-      "categoryId": "q3r4"
+      "desc": "Prescription drugs, health products, and wellness advice"
     },
     {
       "id": "x4y5",
+      "categoryId": "a191",
       "name": "GameStop",
-      "desc": "",
-      "categoryId": "r4s5"
+      "desc": "Video games, consumer electronics, and gaming merchandise retailer"
     },
     {
       "id": "y5z6",
+      "categoryId": "87b0",
       "name": "Claire's",
-      "desc": "",
-      "categoryId": "s5t6"
+      "desc": "Accessories and jewelry for young girls and teenagers"
     },
     {
       "id": "z6a7",
+      "categoryId": "52f1",
       "name": "Tobacco Shop",
-      "desc": "",
-      "categoryId": "t6u7"
+      "desc": "Tobacco products and smoking accessories"
     },
     {
       "id": "a7b8",
+      "categoryId": "52f1",
       "name": "Sephora",
-      "desc": "",
-      "categoryId": "u7v8"
+      "desc": "Skincare, cosmetics, and fragrances"
     },
     {
       "id": "b8c9",
+      "categoryId": "52f1",
       "name": "PetSmart",
-      "desc": "",
-      "categoryId": "v8w9"
+      "desc": "Everything for your pet's needs, from food to grooming"
     },
     {
       "id": "c9d0",
+      "categoryId": "58a9",
       "name": "Barbershop",
-      "desc": "",
-      "categoryId": "w9x0"
+      "desc": "Classic and contemporary haircuts"
+    },
+    {
+      "id": "d9d0",
+      "categoryId": "d21e",
+      "name": "Svarovski",
+      "desc": "Fine crystal jewelry and accessories"
+    },
+    {
+      "id": "ab12",
+      "categoryId": "17b0",
+      "name": "East Wing Toilet",
+      "desc": ""
+    },
+    {
+      "id": "ac12",
+      "categoryId": "52f1",
+      "name": "North Wing Toilet",
+      "desc": ""
+    },
+    {
+      "id": "ac13",
+      "categoryId": "52f1",
+      "name": "Entrance",
+      "desc": ""
     }
   ],
   "categories": [
@@ -199,6 +217,14 @@
     {
       "id": "a191",
       "name": "Electronics"
+    },
+    {
+      "id": "87b0",
+      "name": "Fashion"
+    },
+    {
+      "id": "17b0",
+      "name": "Sanitary"
     }
   ]
 }
