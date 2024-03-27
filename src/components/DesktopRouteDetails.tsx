@@ -1,7 +1,4 @@
 import { useRouteDetails } from "@/hooks/useRouteDetails";
-import { MapDataContext } from "@/pages/Map";
-import { MapDataContextType } from "@/utils/types";
-import { useContext } from "react";
 import { FaX } from "react-icons/fa6";
 import { TbRoute } from "react-icons/tb";
 
