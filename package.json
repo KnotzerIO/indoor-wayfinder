@@ -12,8 +12,10 @@
     "server": "json-server --watch server/db.json --port 8080 --static ./dist"
   },
   "dependencies": {
+    "json-server": "^1.0.0-alpha.23"
+  },
+  "devDependencies": {
     "axios": "^1.6.7",
-    "json-server": "^1.0.0-alpha.23",
     "react": "^18.2.0",
     "react-device-detect": "^2.2.3",
     "react-dom": "^18.2.0",
@@ -21,9 +23,7 @@
     "react-router-dom": "^6.18.0",
     "react-toastify": "^10.0.4",
     "react-zoom-pan-pinch": "^3.1.0",
-    "usehooks-ts": "^2.9.4"
-  },
-  "devDependencies": {
+    "usehooks-ts": "^2.9.4",
     "@types/node": "^20.11.16",
     "@types/react": "18.2.42",
     "@types/react-dom": "^18.2.7",
@@ -53,6 +53,6 @@
     "vite-plugin-image-optimizer": "^1.1.7"
   },
   "engines": {
-    "node": "20.x"
+    "node": ">=18.0.0"
   }
 }
