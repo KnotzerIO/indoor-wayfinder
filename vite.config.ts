@@ -13,7 +13,7 @@ export default defineConfig(({ mode }) => {
       },
     },
     build: {
-      outDir: "../server/dist/client",
+      outDir: "dist",
     },
     esbuild: {
       pure: mode === "production" ? ["console.log"] : [],
