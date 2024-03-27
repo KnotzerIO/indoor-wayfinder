@@ -22,12 +22,10 @@ function IndoorMapWrapper() {
     NavigationContext
   ) as NavigationContextType;
   const { objects } = useContext(MapDataContext) as MapDataContextType;
-
   async function handleObjectClick(e: React.MouseEvent<SVGPathElement>) {
     if (!isEditMode) {
       const targetId = (e.target as HTMLElement).id;
       const selectedObject = objects.find((obj) => obj.name === targetId);
-      console.log(selectedObject);
       if (selectedObject?.id) {
         setObject(selectedObject);
         setModalOpen(true);

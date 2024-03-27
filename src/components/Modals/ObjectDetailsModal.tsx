@@ -43,6 +43,7 @@ function ObjectItemDetailsModal({
   async function handleSaveChanges() {
     try {
       await updateObject(object.id, {
+        id: object.id,
         categoryId: editedCategoryId,
         name: editedObjectName,
         desc: editedObjectDescription,
@@ -69,8 +70,7 @@ function ObjectItemDetailsModal({
   async function handleCategoryDelete(categoryId: string) {
     try {
       await deleteCategory(categoryId);
-      await categories;
-      await refetchData();
+      refetchData();
     } catch (error) {
       console.error("Error deleting category:", error);
     }
