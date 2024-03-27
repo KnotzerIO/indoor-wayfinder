@@ -4,238 +4,201 @@
       "id": "a1b2",
       "name": "MediaMark",
       "desc": "",
-      "objectId": "o1",
       "categoryId": "c1d2"
     },
     {
       "id": "b2c3",
       "name": "Knotzer Fried Chicken",
       "desc": "",
-      "objectId": "o2",
       "categoryId": "c2d3"
     },
     {
       "id": "c3d4",
       "name": "McDonald’s",
       "desc": "",
-      "objectId": "o3",
       "categoryId": "c3d4"
     },
     {
       "id": "d4e5",
       "name": "Rolex",
       "desc": "",
-      "objectId": "o4",
       "categoryId": "c4d5"
     },
     {
       "id": "e5f6",
       "name": "Louis Vuitton",
       "desc": "",
-      "objectId": "o5",
       "categoryId": "c5d6"
     },
     {
       "id": "f6g7",
       "name": "Gucci",
       "desc": "",
-      "objectId": "o6",
       "categoryId": "c6d7"
     },
     {
       "id": "g7h8",
       "name": "Chanel",
       "desc": "",
-      "objectId": "o7",
       "categoryId": "c7d8"
     },
     {
       "id": "h8i9",
       "name": "Levi's",
       "desc": "",
-      "objectId": "o8",
       "categoryId": "c8d9"
     },
     {
       "id": "i9j0",
       "name": "Mall Office",
       "desc": "",
-      "objectId": "o9",
       "categoryId": "c9d0"
     },
     {
       "id": "j0k1",
       "name": "Zara",
       "desc": "",
-      "objectId": "o10",
       "categoryId": "d0e1"
     },
     {
       "id": "k1l2",
       "name": "McShark",
       "desc": "",
-      "objectId": "o11",
       "categoryId": "e1f2"
     },
     {
       "id": "l2m3",
       "name": "Nike",
       "desc": "",
-      "objectId": "o12",
       "categoryId": "f2g3"
     },
     {
       "id": "m3n4",
+      "categoryId": "58a9",
       "name": "Adidas",
-      "desc": "",
-      "objectId": "o13",
-      "categoryId": "g3h4"
+      "desc": ""
     },
     {
       "id": "n4o5",
       "name": "Primark",
       "desc": "",
-      "objectId": "o14",
       "categoryId": "h4i5"
     },
     {
       "id": "o5p6",
       "name": "Svarovski",
       "desc": "",
-      "objectId": "o15",
       "categoryId": "i5j6"
     },
     {
       "id": "p6q7",
+      "categoryId": "e928",
       "name": "H&M",
-      "desc": "",
-      "objectId": "o16",
-      "categoryId": "j6k7"
+      "desc": ""
     },
     {
       "id": "q7r8",
       "name": "Vans",
       "desc": "",
-      "objectId": "o17",
       "categoryId": "k7l8"
     },
     {
       "id": "r8s9",
       "name": "Starbucks",
       "desc": "",
-      "objectId": "o18",
       "categoryId": "l8m9"
     },
     {
       "id": "s9t0",
       "name": "7-Eleven",
       "desc": "",
-      "objectId": "o19",
       "categoryId": "m9n0"
     },
     {
       "id": "t0u1",
       "name": "Victoria's Secret",
       "desc": "",
-      "objectId": "o20",
       "categoryId": "n0o1"
     },
     {
       "id": "u1v2",
       "name": "Pandora",
       "desc": "",
-      "objectId": "o21",
       "categoryId": "o1p2"
     },
     {
       "id": "v2w3",
       "name": "Foot Locker",
       "desc": "",
-      "objectId": "o22",
       "categoryId": "p2q3"
     },
     {
       "id": "w3x4",
       "name": "Pharmacy",
       "desc": "",
-      "objectId": "o23",
       "categoryId": "q3r4"
     },
     {
       "id": "x4y5",
       "name": "GameStop",
       "desc": "",
-      "objectId": "o24",
       "categoryId": "r4s5"
     },
     {
       "id": "y5z6",
       "name": "Claire's",
       "desc": "",
-      "objectId": "o25",
       "categoryId": "s5t6"
     },
     {
       "id": "z6a7",
       "name": "Tobacco Shop",
       "desc": "",
-      "objectId": "o26",
       "categoryId": "t6u7"
     },
     {
       "id": "a7b8",
       "name": "Sephora",
       "desc": "",
-      "objectId": "o27",
       "categoryId": "u7v8"
     },
     {
       "id": "b8c9",
       "name": "PetSmart",
       "desc": "",
-      "objectId": "o28",
       "categoryId": "v8w9"
     },
     {
       "id": "c9d0",
       "name": "Barbershop",
       "desc": "",
-      "objectId": "o29",
       "categoryId": "w9x0"
     }
   ],
   "categories": [
     {
-      "id": "6596e463551c3f465e5d9550",
-      "name": "Büro"
+      "id": "52f1",
+      "name": "Retail"
     },
     {
-      "id": "6596e463551c3f465e5d9547",
-      "name": "Schreibtisch"
+      "id": "e928",
+      "name": "Food"
     },
     {
-      "id": "6596e463551c3f465e5d9548",
-      "name": "Besprechungsraum"
+      "id": "58a9",
+      "name": "Services"
     },
     {
-      "id": "6596e463551c3f465e5d9549",
-      "name": "Küche"
+      "id": "16be",
+      "name": "Health & Beauty"
     },
     {
-      "id": "6596e463551c3f465e5d9551",
-      "name": "Arbeitsbereich"
+      "id": "d21e",
+      "name": "Luxury Goods"
     },
     {
-      "id": "65bb78f4112426d9dfe26f6f",
-      "name": "Außenbereich"
-    },
-    {
-      "id": "65bbabe3d6f3029321a00fa7",
-      "name": "Raum"
-    },
-    {
-      "id": "65d4b226bd0e0c5c56c96382",
-      "name": "Sanitäranlage"
+      "id": "a191",
+      "name": "Electronics"
     }
   ]
 }
