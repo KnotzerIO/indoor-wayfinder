@@ -28,7 +28,12 @@ This project is a variation of my diploma project, focusing on an interactive ma
 
 ## Screenshots
 
-//TODO
+<table>
+  <tr>
+    <td valign="top"><img src="https://private-user-images.githubusercontent.com/113889912/317516050-d05a2b66-8c7f-4cdd-9b3a-092094cfe74c.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTE1NzM2OTYsIm5iZiI6MTcxMTU3MzM5NiwicGF0aCI6Ii8xMTM4ODk5MTIvMzE3NTE2MDUwLWQwNWEyYjY2LThjN2YtNGNkZC05YjNhLTA5MjA5NGNmZTc0Yy5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwMzI3JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDMyN1QyMTAzMTZaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT01Y2NkYTY0MzE0ZTM3NDAyMjE4YTVmMzQ1OGZkYjFmNjhhZTFlNjIzNjI0NTdjNTkxZTZlMTM3MjYzZTUwZjU1JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.qsi44JeKkto9S8vSVzZ2pps0j9kRTn5mds0UPghd9Zk"/></td>
+    <td valign="top"><img src="https://private-user-images.githubusercontent.com/113889912/317516103-91c0a1d7-41e2-4df6-bf39-47849a2b44ad.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTE1NzM2OTYsIm5iZiI6MTcxMTU3MzM5NiwicGF0aCI6Ii8xMTM4ODk5MTIvMzE3NTE2MTAzLTkxYzBhMWQ3LTQxZTItNGRmNi1iZjM5LTQ3ODQ5YTJiNDRhZC5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwMzI3JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDMyN1QyMTAzMTZaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0yNzUwOTJkYTg2ZWVlZTQzMTg1ZGFlNTFjNDA5NTU3NGEyYTU0MjA2ZjVlZjFiNWQ1Njk3MGM5NjA5MTYyMzhmJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.XE6BBXPGhDLpHV46oMwC8hys-tm30IDRWQZNHndI8bQ"/></td>
+  </tr>
+</table>
 
 ## Features
 
@@ -115,6 +120,7 @@ Pathpal is currently a functional prototype. Future updates may include a map ed
 
 - **Editing Tools**: Developers have the option to utilize vector graphic editing tools such as Adobe Illustrator or Boxy SVG for modifying the SVG map. This modification can involve updating layouts, adding or removing Points of Interest (POIs), and adjusting paths. Refer to the screenshot below to see an example of map editing using Boxy SVG. For converting SVG to JSX, [Transform Tools](https://transform.tools/) can be a useful resource.
 
+<img src="https://private-user-images.githubusercontent.com/113889912/317502714-0fe78ce5-60d9-46b9-aef3-8bfd5868b570.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTE1NzA3NjAsIm5iZiI6MTcxMTU3MDQ2MCwicGF0aCI6Ii8xMTM4ODk5MTIvMzE3NTAyNzE0LTBmZTc4Y2U1LTYwZDktNDZiOS1hZWYzLThiZmQ1ODY4YjU3MC5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwMzI3JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDMyN1QyMDE0MjBaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1mMmU2MTlhNjM2ZDI2MzZiODZhMTc5ODEyZGRjZWQ1MDZlOTJlMzhmMmI3MzUwM2RkNzc2MzhlNTE4NDk1NzgzJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.6GALKy1Wuf5ZamWSbdJ-_kZY4olSNT-KWjNvEYBHUqE">
 ## Credits
 
 This project was inspired by my diploma work and significantly influenced by the support of mentors, peers, and resources like [maciejb2k's pathfinding app](https://github.com/maciejb2k/pathfinding_app).
