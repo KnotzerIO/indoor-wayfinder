@@ -56,21 +56,21 @@
     },
     {
       "id": "j0k1",
+      "categoryId": "52f1",
       "name": "Zara",
-      "desc": "",
-      "categoryId": "d0e1"
+      "desc": ""
     },
     {
       "id": "k1l2",
+      "categoryId": "a191",
       "name": "McShark",
-      "desc": "",
-      "categoryId": "e1f2"
+      "desc": ""
     },
     {
       "id": "l2m3",
+      "categoryId": "52f1",
       "name": "Nike",
-      "desc": "",
-      "categoryId": "f2g3"
+      "desc": ""
     },
     {
       "id": "m3n4",
@@ -80,19 +80,19 @@
     },
     {
       "id": "n4o5",
+      "categoryId": "52f1",
       "name": "Primark",
-      "desc": "",
-      "categoryId": "h4i5"
+      "desc": ""
     },
     {
       "id": "o5p6",
+      "categoryId": "d21e",
       "name": "Svarovski",
-      "desc": "",
-      "categoryId": "i5j6"
+      "desc": ""
     },
     {
       "id": "p6q7",
-      "categoryId": "e928",
+      "categoryId": "52f1",
       "name": "H&M",
       "desc": ""
     },
