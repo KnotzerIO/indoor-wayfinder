@@ -182,13 +182,13 @@
     },
     {
       "id": "ac12",
-      "categoryId": "52f1",
+      "categoryId": "17b0",
       "name": "North Wing Toilet",
       "desc": ""
     },
     {
       "id": "ac13",
-      "categoryId": "52f1",
+      "categoryId": "e753",
       "name": "Entrance",
       "desc": ""
     }
@@ -225,6 +225,10 @@
     {
       "id": "17b0",
       "name": "Sanitary"
+    },
+    {
+      "id": "e753",
+      "name": "Entrace"
     }
   ]
 }
