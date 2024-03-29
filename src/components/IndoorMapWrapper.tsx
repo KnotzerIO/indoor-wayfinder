@@ -79,7 +79,9 @@ function IndoorMapWrapper() {
             <Positions
               positionRadius={positionRadius}
               handlePositionClick={handlePositionClick}
-              className={isEditMode ? "opacity-100" : "opacity-0"}
+              className={
+                isEditMode ? "opacity-100 cursor-pointer" : "opacity-0"
+              }
               navigation={navigation}
             />
           </MapBackground>
