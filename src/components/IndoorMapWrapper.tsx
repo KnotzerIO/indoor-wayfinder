@@ -18,7 +18,7 @@ import { toast } from "react-toastify";
 function IndoorMapWrapper() {
   const [modalOpen, setModalOpen] = useState(false);
   const [object, setObject] = useState<ObjectItem>({} as ObjectItem);
-  const positionRadius = isMobile ? 10 : 7;
+  const positionRadius = isMobile ? 10 : 8;
   const { navigation, setNavigation, isEditMode, setIsEditMode } = useContext(
     NavigationContext
   ) as NavigationContextType;
@@ -58,11 +58,11 @@ function IndoorMapWrapper() {
 
       <TransformWrapper
         centerOnInit
-        maxScale={3}
         minScale={isMobile ? 0.4 : 1}
         doubleClick={{ mode: "reset" }}
-        pinch={{ step: 20 }}
         initialScale={isMobile ? 0.4 : 1}
+        smooth={true}
+        wheel={{ smoothStep: 0.01 }}
       >
         <TransformComponent wrapperClass="bg-white">
           <MapBackground>
