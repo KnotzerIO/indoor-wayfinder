@@ -27,12 +27,6 @@
   fill: #4285f4;
 }
 
-.position-selected {
-  opacity: 1;
-  fill: #03f55b;
-  stroke: #fff;
-}
-
 .path {
   stroke: var(--path-color);
   stroke-width: 1;

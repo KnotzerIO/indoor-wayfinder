@@ -80,7 +80,9 @@ function IndoorMapWrapper() {
               positionRadius={positionRadius}
               handlePositionClick={handlePositionClick}
               className={
-                isEditMode ? "opacity-100 cursor-pointer" : "opacity-0"
+                isEditMode
+                  ? "opacity-100 cursor-pointer hover:fill-[#488af4] "
+                  : "opacity-0"
               }
               navigation={navigation}
             />
