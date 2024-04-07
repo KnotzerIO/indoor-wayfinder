@@ -31,11 +31,11 @@ This project is a variation of my diploma project, focusing on an interactive ma
 
 <table style="border-radius: 10px;  border: 1px solid gray;">
   <tr >
-    <td align="center"><img src="https://private-user-images.githubusercontent.com/113889912/317519555-75f0e689-b7b0-44b5-b5d9-7a3072b79f39.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTE1ODMxNDMsIm5iZiI6MTcxMTU4Mjg0MywicGF0aCI6Ii8xMTM4ODk5MTIvMzE3NTE5NTU1LTc1ZjBlNjg5LWI3YjAtNDRiNS1iNWQ5LTdhMzA3MmI3OWYzOS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwMzI3JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDMyN1QyMzQwNDNaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1mMGY5MTVkNDgxZTE1MGFmZTZmYzIwMzJjZjFiMzA2ZTc3NWM0ODAwY2YxNzE1NTE0M2ZjMzE2YzY4OWU1ZDdmJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.cV-MGi9ob0Ny4XuoT33TAwXux1O7n8NELK_hjyu5ifY"/></td>
+    <td align="center"><img src="media/indoor-map-details.png"/></td>
    <td align="center"><h3 >Displaying Object Information on Click</h3></td>
   </tr>
     <tr>
-    <td align="center"><img src="https://private-user-images.githubusercontent.com/113889912/317516103-91c0a1d7-41e2-4df6-bf39-47849a2b44ad.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTE1ODMxNDMsIm5iZiI6MTcxMTU4Mjg0MywicGF0aCI6Ii8xMTM4ODk5MTIvMzE3NTE2MTAzLTkxYzBhMWQ3LTQxZTItNGRmNi1iZjM5LTQ3ODQ5YTJiNDRhZC5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwMzI3JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDMyN1QyMzQwNDNaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT00ZTI2OGU0MzA2ZTE2MTk3ODY5Y2M3YjEyYTMwYWM5ZTY1ZDk5ZGQ2OGY2NWMxODNhZTI0M2Q2MDFkZjc3ZmE1JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.wskbbqYjatsfflkLBxH5_USFxZJeKwHdJkRaSE037DE"/></td>
+    <td align="center"><img src="media/indoor-wayfinding.png"/></td>
     <td align="center"><h3>Demonstration of Shortest Path Calculation</h3></td>
   </tr>
 </table>
@@ -125,7 +125,8 @@ Pathpal is currently a functional prototype. Future updates may include a map ed
 
 - **Editing Tools**: Developers have the option to utilize vector graphic editing tools such as Adobe Illustrator or Boxy SVG for modifying the SVG map. This modification can involve updating layouts, adding or removing Points of Interest (POIs), and adjusting paths. Refer to the screenshot below to see an example of map editing using Boxy SVG. For converting SVG to JSX, [Transform Tools](https://transform.tools/) can be a useful resource.
 
-<img src="https://private-user-images.githubusercontent.com/113889912/317502714-0fe78ce5-60d9-46b9-aef3-8bfd5868b570.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTE1ODMxNDMsIm5iZiI6MTcxMTU4Mjg0MywicGF0aCI6Ii8xMTM4ODk5MTIvMzE3NTAyNzE0LTBmZTc4Y2U1LTYwZDktNDZiOS1hZWYzLThiZmQ1ODY4YjU3MC5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwMzI3JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDMyN1QyMzQwNDNaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT03MjEzYmEyMTEzNDBlYmIxMGY1NGZjYzlmYTE4ZDcyOGMwMDJkZDI3YTBjMWZmZmM3YjcyYzBlYTY5NDJkYTIwJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.A1AD7ETgHugXHlXGmJEJka-19ldAu5XhvsSihOiNYvQ">
+![IndoorMap Editing Example](media/map-editing-preview.png)
+
 ## Credits
 
 This project was inspired by my diploma work and significantly influenced by the support of mentors, peers, and resources like [maciejb2k's pathfinding app](https://github.com/maciejb2k/pathfinding_app).
