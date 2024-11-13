@@ -1,3 +1,5 @@
+**Note**: Pathpal was built as a prototype during a school project. Be sure to check out the new project [openindoormaps](https://github.com/openindoormap/openindoormaps) with more features and advancements!
+
 # Pathpal: Web-Based Indoor Wayfinder
 
 Pathpal is an innovative web application designed to revolutionize indoor navigation. Using interactive maps and efficient pathfinding algorithms, it offers an intuitive solution for navigating complex indoor spaces.
