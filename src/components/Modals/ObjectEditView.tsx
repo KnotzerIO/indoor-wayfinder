@@ -88,7 +88,7 @@ function ObjectEditView({
           className="mt-4 text-green-500 cursor-pointer"
           onClick={handleSaveChanges}
         >
-          Änderungen speichern
+          Save Changes (Won't work without API)
         </button>
       </DialogBody>
     </>
