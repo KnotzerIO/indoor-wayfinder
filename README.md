@@ -6,7 +6,7 @@
 
 Pathpal is an innovative web application designed to revolutionize indoor navigation. Using interactive maps and efficient pathfinding algorithms, it offers an intuitive solution for navigating complex indoor spaces.
 <br>
-**Demo:** [Visit Pathpal](indoor-wayfinder.vercel.app)
+**Demo:** [Visit Pathpal](https://indoor-wayfinder.vercel.app)
 
 ## Table of Content:
 
