@@ -1,13 +1,16 @@
+import db from "@/assets/db.json";
 import { Beacon, Category, ObjectItem } from "@/utils/types";
 import apiService from "./apiService";
-
 export async function getObjects(): Promise<ObjectItem[]> {
   try {
     const response = await apiService.get("/objects");
     return response.data as ObjectItem[];
   } catch (error) {
-    console.error("Error fetching objects:", error);
-    throw error;
+    console.error(
+      "Error fetching objects from API, falling back to local db.json:",
+      error
+    );
+    return db.objects as ObjectItem[];
   }
 }
 
@@ -17,7 +20,11 @@ export async function getObjectById(id: string): Promise<ObjectItem> {
     return response.data[0] as ObjectItem;
   } catch (error) {
     console.error(`Error fetching object with ID ${id}:`, error);
-    throw error;
+    const object = db.objects.find((obj) => obj.id === id);
+    if (!object) {
+      throw new Error(`Object with ID ${id} not found in local db.json`);
+    }
+    return object;
   }
 }
 
@@ -26,8 +33,11 @@ export async function getCategories(): Promise<Category[]> {
     const response = await apiService.get("/categories");
     return response.data as Category[];
   } catch (error) {
-    console.error("Error fetching categories:", error);
-    throw error;
+    console.error(
+      "Error fetching categories from API, falling back to local db.json:",
+      error
+    );
+    return db.categories as Category[];
   }
 }
 
