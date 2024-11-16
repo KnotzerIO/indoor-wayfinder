@@ -53,7 +53,26 @@ function Sidebar() {
 
   return (
     <aside className="flex flex-col rounded-none w-[35rem] h-screen p-3 bg-white shadow-xl shadow-gray-200 -translate-x-full transform transition-transform duration-150 ease-in lg:translate-x-0 lg:shadow-md ">
-      <header className="flex mb-4 pr-1 border-b py-2 w-full">
+      <header className="flex flex-col mb-4 pr-1 border-b py-2 w-full">
+        <div className="p-4 mb-4 text-sm text-blue-800 border border-blue-300 rounded-lg bg-blue-50">
+          <svg
+            className="flex-shrink-0 inline w-4 h-4 me-3"
+            aria-hidden="true"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="currentColor"
+            viewBox="0 0 20 20"
+          >
+            <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5ZM9.5 4a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3ZM12 15H8a1 1 0 0 1 0-2h1v-3H8a1 1 0 0 1 0-2h2a1 1 0 0 1 1 1v4h1a1 1 0 0 1 0 2Z" />
+          </svg>
+          <a
+            href="https://github.com/openindoormap/openindoormaps"
+            target="_blank"
+            rel="noreferrer"
+            className="font-medium"
+          >
+            Explore my new project OpenIndoorMaps
+          </a>
+        </div>
         <div className="flex items-center flex-none mr-10">
           <div className="rounded-md w-16 h-16 p-4 bg-gray-100 center">
             <img

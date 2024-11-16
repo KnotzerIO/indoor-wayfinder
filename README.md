@@ -1,10 +1,12 @@
-**Note**: Pathpal was built as a prototype during a school project. Be sure to check out the new project [openindoormaps](https://github.com/openindoormap/openindoormaps) with more features and advancements!
+> [!TIP]
+> Looking for a more advanced indoor navigation solution?
+> Try [OpenIndoorMaps](https://github.com/openindoormap/openindoormaps) - featuring map editing, 3D views, and outdoor map integration.
 
 # Pathpal: Web-Based Indoor Wayfinder
 
 Pathpal is an innovative web application designed to revolutionize indoor navigation. Using interactive maps and efficient pathfinding algorithms, it offers an intuitive solution for navigating complex indoor spaces.
 <br>
-**Demo:** [Visit Pathpal](https://pathpal-navigation.azurewebsites.net)
+**Demo:** [Visit Pathpal](indoor-wayfinder.vercel.app)
 
 ## Table of Content:
 
@@ -29,6 +31,9 @@ Pathpal is an innovative web application designed to revolutionize indoor naviga
 
 This project is a variation of my diploma project, focusing on an interactive map for indoor wayfinding and navigation. It features an interactive SVG map and utilizes the Dijkstra algorithm to calculate the shortest path to points of interest (POIs). Originally, the application experimented with indoor positioning using BLE technology, but due to ithe experimental nature of the Bluetooth Web API, it has been omitted in this variation. Instead of a traditional database, this version uses a JSON server for development purposes.
 
+> [!WARNING]  
+> The backend of this project has been removed. All data are stored in a JSON file. This project is a prototype and should not be used for production purposes. Please check out my new project [OpenIndoorMaps](https://github.com/yourusername/OpenIndoorMaps) for a more comprehensive solution.
+
 ## Screenshots
 
 <table style="border-radius: 10px;  border: 1px solid gray;">
@@ -47,7 +52,6 @@ This project is a variation of my diploma project, focusing on an interactive ma
 - **Interactive SVG Maps**: Navigate complex indoor spaces with ease.
 - **Dijkstra Pathfinding**: Calculates the shortest path to your destination.
 - **Responsive Design**: Optimized for any device and screen size.
-- **JSON Server**: Simplifies backend development for prototyping.
 - **Customizable POIs**: Edit names and categories of points of interest.
 - **Pinch-to-Zoom**: Effortlessly zoom in and out on maps with touch gestures.
 
