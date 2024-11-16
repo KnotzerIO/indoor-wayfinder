@@ -8,12 +8,13 @@
     "build": "tsc && NODE_ENV=production vite build --emptyOutDir",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
-    "devnhost": "vite --host",
-    "dev:all": "concurrently \"npm run dev\" \"npm run server\"",
-    "server": "json-server --watch server/db.json --port 8080 --static ./dist"
+    "devnhost": "vite --host"
   },
   "dependencies": {
-    "json-server": "^1.0.0-alpha.23"
+    "axios": "^1.6.7",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.18.0"
   },
   "devDependencies": {
     "@types/node": "^20.11.16",
@@ -24,8 +25,6 @@
     "@typescript-eslint/parser": "^6.18.1",
     "@vitejs/plugin-react": "^4.0.3",
     "autoprefixer": "^10.4.16",
-    "axios": "^1.6.7",
-    "concurrently": "^8.2.2",
     "cssnano": "^6.0.3",
     "eslint": "^8.56.0",
     "eslint-config-airbnb": "^19.0.4",
@@ -39,11 +38,8 @@
     "eslint-plugin-react-refresh": "^0.4.3",
     "postcss": "^8.4.33",
     "prettier": "^3.2.1",
-    "react": "^18.2.0",
     "react-device-detect": "^2.2.3",
-    "react-dom": "^18.2.0",
     "react-icons": "^4.11.0",
-    "react-router-dom": "^6.18.0",
     "react-toastify": "^10.0.4",
     "react-zoom-pan-pinch": "^3.4.4",
     "sharp": "^0.33.2",
