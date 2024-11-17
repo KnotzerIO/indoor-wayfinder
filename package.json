@@ -11,6 +11,7 @@
     "devnhost": "vite --host"
   },
   "dependencies": {
+    "@vercel/analytics": "^1.4.0",
     "axios": "^1.6.7",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
