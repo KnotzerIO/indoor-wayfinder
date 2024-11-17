@@ -29,7 +29,7 @@ Pathpal is an innovative web application designed to revolutionize indoor naviga
 
 ## About The App
 
-This project is a variation of my diploma project, focusing on an interactive map for indoor wayfinding and navigation. It features an interactive SVG map and utilizes the Dijkstra algorithm to calculate the shortest path to points of interest (POIs). Originally, the application experimented with indoor positioning using BLE technology, but due to ithe experimental nature of the Bluetooth Web API, it has been omitted in this variation. Instead of a traditional database, this version uses a JSON server for development purposes.
+This project is a variation of my diploma project, focusing on an interactive map for indoor wayfinding and navigation. It features an interactive SVG map and utilizes the Dijkstra algorithm to calculate the shortest path to points of interest (POIs). Originally, the application experimented with indoor positioning using BLE technology, but due to ithe experimental nature of the Bluetooth Web API, it has been omitted in this variation.
 
 > [!WARNING]  
 > The backend of this project has been removed. All data are stored in a JSON file. This project is a prototype and should not be used for production purposes. Please check out my new project [OpenIndoorMaps](https://github.com/yourusername/OpenIndoorMaps) for a more comprehensive solution.
@@ -65,7 +65,6 @@ Pathpal is built with the latest web technologies for speed, efficiency, and ada
 - TailwindCSS
 - SVG
 - Dijkstra's Algorithm
-- JSON Server
 
 ## Setup
 
@@ -87,19 +86,7 @@ Follow these steps to get the project up and running:
    npm run dev
    ```
 
-5. **Start the Server**: In a separate terminal window, start the server by running:
-
-   ```bash
-   npm run server
-   ```
-
-6. **Run Both at The Same Time**: If you want to start both the application and the server at the same time, you can run the following command:
-
-   ```bash
-   npm run dev:all
-   ```
-
-After running these commands, your default web browser should automatically open and navigate to `localhost:5173`, where you can see the running application. The server will be running on `localhost:8080`.
+After running these commands, your default web browser should automatically open and navigate to `localhost:5173`, where you can see the running application.
 
 ## Status
 
