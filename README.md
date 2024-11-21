@@ -17,7 +17,6 @@ Pathpal is an innovative web application designed to revolutionize indoor naviga
   - [Features](#features)
   - [Technologies](#technologies)
   - [Setup](#setup)
-  - [Status](#status)
   - [Technical Insights](#technical-insights)
     - [Map Technology](#map-technology)
     - [Pathfinding](#pathfinding)
@@ -87,10 +86,6 @@ Follow these steps to get the project up and running:
    ```
 
 After running these commands, your default web browser should automatically open and navigate to `localhost:5173`, where you can see the running application.
-
-## Status
-
-Pathpal is currently a functional prototype. Future updates may include a map editor for enhanced customization.
 
 ## Technical Insights
 
