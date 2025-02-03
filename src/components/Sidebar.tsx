@@ -70,7 +70,7 @@ function Sidebar() {
             rel="noreferrer"
             className="font-semibold text-blue-800"
           >
-            Check out OpenIndoorMaps
+            Check out my new project OpenIndoorMaps
           </a>
         </div>
         <div className="flex items-center flex-none mr-10">
