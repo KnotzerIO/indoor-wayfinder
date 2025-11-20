@@ -11,7 +11,7 @@ import {
 import { MapBackground, Paths, Positions, Objects } from "./IndoorMap";
 
 import Controls from "./MapControls";
-import ObjectDetailsModal from "./Modals/ObjectDetailsModal";
+import ObjectDetailsModal from "./ObjectDetailsDialog";
 import { navigateToObject } from "@/utils/navigationHelper";
 import { toast } from "react-toastify";
 
