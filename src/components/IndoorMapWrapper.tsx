@@ -2,7 +2,6 @@ import React, { useContext, useState } from "react";
 import { isMobile } from "react-device-detect";
 import { TransformComponent, TransformWrapper } from "react-zoom-pan-pinch";
 import { MapDataContext, NavigationContext } from "../pages/Map";
-import "../styles/map.css";
 import {
   MapDataContextType,
   NavigationContextType,
