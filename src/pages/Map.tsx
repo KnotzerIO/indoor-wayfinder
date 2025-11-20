@@ -1,7 +1,6 @@
 import IndoorMapWrapper from "@/components/IndoorMapWrapper";
 import MobileRouteDetails from "@/components/MobileRouteDetails";
 import Toolbar from "@/components/Toolbar";
-import useMapData from "@/hooks/useMapData";
 import { createContext, useEffect, useState } from "react";
 import { isDesktop, isMobile } from "react-device-detect";
 import { useSearchParams } from "react-router-dom";
@@ -9,8 +8,11 @@ import {
   MapDataContextType,
   Navigation,
   NavigationContextType,
+  ObjectItem,
+  Category,
 } from "../utils/types";
 import Sidebar from "@/components/Sidebar";
+import db from "@/assets/db.json";
 
 export const NavigationContext = createContext<NavigationContextType | null>(
   null
@@ -18,8 +20,8 @@ export const NavigationContext = createContext<NavigationContextType | null>(
 export const MapDataContext = createContext<MapDataContextType | null>(null);
 function Map() {
   let [searchParams, setSearchParams] = useSearchParams();
-  const defaultPosition = "v35";
-  const startPosition = searchParams.get("position") || defaultPosition;
+  const DEFAULT_POSITION = "v35";
+  const startPosition = searchParams.get("position") || DEFAULT_POSITION;
   const [navigation, setNavigation] = useState<Navigation>({
     start: startPosition,
     end: "",
@@ -31,12 +33,23 @@ function Map() {
     isEditMode,
     setIsEditMode,
   };
+  const categories: Category[] = db.categories;
+  const objects = (): ObjectItem[] => {
+    const objectsData: ObjectItem[] = db.objects;
+    // Add categoryName to each object
+    objectsData.forEach((obj) => {
+      obj.categoryName = categories.find(
+        (cat) => cat.id === obj.categoryId
+      )?.name;
+    });
+    return objectsData;
+  };
 
   useEffect(() => {
     setSearchParams({ position: navigation.start });
   }, [navigation.start]);
 
-  const mapData = useMapData();
+  const mapData = { objects: objects(), categories };
   return (
     <MapDataContext.Provider value={mapData}>
       <NavigationContext.Provider value={navigationValue}>

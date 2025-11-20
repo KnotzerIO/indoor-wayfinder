@@ -1,5 +1,3 @@
-
-
 export interface ObjectItem {
   id: string;
   name: string;
@@ -33,19 +31,4 @@ export interface NavigationContextType {
 export interface MapDataContextType {
   objects: ObjectItem[];
   categories: Category[];
-  beacons?: Beacon[];
-  refetchData: () => void;
-}
-
-export interface AdminContextType {
-  isAdmin: boolean;
-  setIsAdmin: React.Dispatch<React.SetStateAction<boolean>>;
-}
-
-export interface BleBeacon {
-  name: string;
-  id: string;
-  rssi: number;
-  txPower: number;
-  uuids: string[];
 }
