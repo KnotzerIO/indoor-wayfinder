@@ -19,7 +19,10 @@ function MapBackground({ children }: MapBackgroundProps) {
 
 export default MapBackground;
 
-//! Dont delete bc might be useful sometime
+// Can be used to get mouse position in SVG coordinates
+// just put it inside the MapBackground component and click somewhere on the map to get the coordinates
+// can be very useful for adding new objects or positions
+
 /*
   const getMousePositionSVG = (event: MouseEvent) => {
     const point = svgRef.current?.createSVGPoint();
