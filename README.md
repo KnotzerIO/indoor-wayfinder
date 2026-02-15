@@ -1,3 +1,35 @@
+
+<div align="right">
+  <details>
+    <summary >🌐 Language</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=KnotzerIO&project=indoor-wayfinder&lang=en">English</a>
+        | <a href="https://openaitx.github.io/view.html?user=KnotzerIO&project=indoor-wayfinder&lang=zh-CN">简体中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=KnotzerIO&project=indoor-wayfinder&lang=zh-TW">繁體中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=KnotzerIO&project=indoor-wayfinder&lang=ja">日本語</a>
+        | <a href="https://openaitx.github.io/view.html?user=KnotzerIO&project=indoor-wayfinder&lang=ko">한국어</a>
+        | <a href="https://openaitx.github.io/view.html?user=KnotzerIO&project=indoor-wayfinder&lang=hi">हिन्दी</a>
+        | <a href="https://openaitx.github.io/view.html?user=KnotzerIO&project=indoor-wayfinder&lang=th">ไทย</a>
+        | <a href="https://openaitx.github.io/view.html?user=KnotzerIO&project=indoor-wayfinder&lang=fr">Français</a>
+        | <a href="https://openaitx.github.io/view.html?user=KnotzerIO&project=indoor-wayfinder&lang=de">Deutsch</a>
+        | <a href="https://openaitx.github.io/view.html?user=KnotzerIO&project=indoor-wayfinder&lang=es">Español</a>
+        | <a href="https://openaitx.github.io/view.html?user=KnotzerIO&project=indoor-wayfinder&lang=it">Italiano</a>
+        | <a href="https://openaitx.github.io/view.html?user=KnotzerIO&project=indoor-wayfinder&lang=ru">Русский</a>
+        | <a href="https://openaitx.github.io/view.html?user=KnotzerIO&project=indoor-wayfinder&lang=pt">Português</a>
+        | <a href="https://openaitx.github.io/view.html?user=KnotzerIO&project=indoor-wayfinder&lang=nl">Nederlands</a>
+        | <a href="https://openaitx.github.io/view.html?user=KnotzerIO&project=indoor-wayfinder&lang=pl">Polski</a>
+        | <a href="https://openaitx.github.io/view.html?user=KnotzerIO&project=indoor-wayfinder&lang=ar">العربية</a>
+        | <a href="https://openaitx.github.io/view.html?user=KnotzerIO&project=indoor-wayfinder&lang=fa">فارسی</a>
+        | <a href="https://openaitx.github.io/view.html?user=KnotzerIO&project=indoor-wayfinder&lang=tr">Türkçe</a>
+        | <a href="https://openaitx.github.io/view.html?user=KnotzerIO&project=indoor-wayfinder&lang=vi">Tiếng Việt</a>
+        | <a href="https://openaitx.github.io/view.html?user=KnotzerIO&project=indoor-wayfinder&lang=id">Bahasa Indonesia</a>
+        | <a href="https://openaitx.github.io/view.html?user=KnotzerIO&project=indoor-wayfinder&lang=as">অসমীয়া</
+      </div>
+    </div>
+  </details>
+</div>
+
 > [!TIP]
 > Looking for a more advanced indoor navigation solution?
 > Try [OpenIndoorMaps](https://github.com/openindoormap/openindoormaps) - featuring map editing, 3D views, and outdoor map integration.
